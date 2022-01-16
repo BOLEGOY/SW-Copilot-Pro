@@ -9,4 +9,7 @@ using MvvmDialogs;
 using SolidWorks.Interop.sldworks;
 using System;
 using System.Diagnostics;
-usin
+using System.IO;
+using System.Reflection;
+using System.Runtime.InteropServices;
+usi
