@@ -6,4 +6,7 @@ using Copilot.Sw.ViewModels;
 using Copilot.Sw.Views;
 using Microsoft.Extensions.DependencyInjection;
 using MvvmDialogs;
-u
+using SolidWorks.Interop.sldworks;
+using System;
+using System.Diagnostics;
+usin
