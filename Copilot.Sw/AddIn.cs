@@ -14,4 +14,6 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 using Xarial.XCad.Base.Attributes;
 using Xarial.XCad.Base.Enums;
-using Xarial.XCa
+using Xarial.XCad.SolidWorks;
+using Xarial.XCad.UI.Commands;
+using Xarial.XCad.UI.Commands.S
