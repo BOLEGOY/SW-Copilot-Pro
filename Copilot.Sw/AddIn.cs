@@ -16,4 +16,7 @@ using Xarial.XCad.Base.Attributes;
 using Xarial.XCad.Base.Enums;
 using Xarial.XCad.SolidWorks;
 using Xarial.XCad.UI.Commands;
-using Xarial.XCad.UI.Commands.S
+using Xarial.XCad.UI.Commands.Structures;
+
+[ComVisible(true)]
+[Guid("9F9212BF-6856-4078-AE4E-F5CD5774DD71
