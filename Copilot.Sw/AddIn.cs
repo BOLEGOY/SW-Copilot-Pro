@@ -22,4 +22,6 @@ using Xarial.XCad.UI.Commands.Structures;
 [Guid("9F9212BF-6856-4078-AE4E-F5CD5774DD71")]
 [Title(AddinName)]
 [Icon(typeof(Copilot.Sw.Properties.Resources), nameof(Copilot.Sw.Properties.Resources.SolidWorksCopilot))]
-public class AddI
+public class AddIn : SwAddInEx,IAddin
+{
+    public const string AddinName = "SolidWork
