@@ -19,4 +19,6 @@ using Xarial.XCad.UI.Commands;
 using Xarial.XCad.UI.Commands.Structures;
 
 [ComVisible(true)]
-[Guid("9F9212BF-6856-4078-AE4E-F5CD5774DD71
+[Guid("9F9212BF-6856-4078-AE4E-F5CD5774DD71")]
+[Title(AddinName)]
+[Icon(typeof(Copilot.Sw.Properties.Resources),
