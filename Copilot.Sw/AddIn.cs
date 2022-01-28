@@ -28,4 +28,7 @@ public class AddIn : SwAddInEx,IAddin
 
     #region Properties
     ///<inheritdoc/>
-    public string AddinDi
+    public string AddinDirectory { get; private set; }
+
+    ///<inheritdoc/>
+    public ISe
