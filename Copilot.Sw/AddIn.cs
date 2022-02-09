@@ -36,4 +36,9 @@ public class AddIn : SwAddInEx,IAddin
     public ISldWorks Sw => Application.Sw;
 
     public IntPtr SwHandle => Application.WindowHandle;
-    #en
+    #endregion
+
+    #region Public Methods
+    public override void OnConnect()
+    {
+     
