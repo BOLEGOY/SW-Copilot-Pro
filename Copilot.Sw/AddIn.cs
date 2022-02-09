@@ -31,4 +31,6 @@ public class AddIn : SwAddInEx,IAddin
     public string AddinDirectory { get; private set; }
 
     ///<inheritdoc/>
-    public ISe
+    public IServiceProvider Services { get; private set; }
+
+    public ISldWorks Sw 
