@@ -33,4 +33,7 @@ public class AddIn : SwAddInEx,IAddin
     ///<inheritdoc/>
     public IServiceProvider Services { get; private set; }
 
-    public ISldWorks Sw 
+    public ISldWorks Sw => Application.Sw;
+
+    public IntPtr SwHandle => Application.WindowHandle;
+    #en
