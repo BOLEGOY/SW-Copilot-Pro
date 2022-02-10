@@ -41,4 +41,5 @@ public class AddIn : SwAddInEx,IAddin
     #region Public Methods
     public override void OnConnect()
     {
-     
+        //Resolve Assembly
+        AddinDirectory = Path.GetDirectoryName
