@@ -46,4 +46,5 @@ public class AddIn : SwAddInEx,IAddin
         AppDomain.CurrentDomain.AssemblyResolve += CurrentDomain_AssemblyResolve;
 
         //Config Service
-        Services
+        Services = ConfigureCopilotServices();
+        Ioc.Default.ConfigureServices(Configur
