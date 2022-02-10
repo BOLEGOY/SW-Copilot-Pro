@@ -43,4 +43,7 @@ public class AddIn : SwAddInEx,IAddin
     {
         //Resolve Assembly
         AddinDirectory = Path.GetDirectoryName(typeof(AddIn).Assembly.Location);
-        AppDomain.CurrentDomain.AssemblyResolve
+        AppDomain.CurrentDomain.AssemblyResolve += CurrentDomain_AssemblyResolve;
+
+        //Config Service
+        Services
