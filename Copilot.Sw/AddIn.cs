@@ -53,4 +53,7 @@ public class AddIn : SwAddInEx,IAddin
         var pane = CreateTaskPane<WPFChatPane>();
 
         //Add Command
-        CommandManager.AddCommandGroup<Command
+        CommandManager.AddCommandGroup<Commands>().CommandClick += AddIn_CommandClick; ;
+
+        //Add context menu
+        CommandManager.
