@@ -47,4 +47,7 @@ public class AddIn : SwAddInEx,IAddin
 
         //Config Service
         Services = ConfigureCopilotServices();
-        Ioc.Default.ConfigureServices(Configur
+        Ioc.Default.ConfigureServices(ConfigureCopilotServices());
+        
+        //Add Taskpane
+        var pane = CreateTaskPane<WPFCh
