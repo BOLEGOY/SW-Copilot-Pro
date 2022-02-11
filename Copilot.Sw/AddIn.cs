@@ -50,4 +50,7 @@ public class AddIn : SwAddInEx,IAddin
         Ioc.Default.ConfigureServices(ConfigureCopilotServices());
         
         //Add Taskpane
-        var pane = CreateTaskPane<WPFCh
+        var pane = CreateTaskPane<WPFChatPane>();
+
+        //Add Command
+        CommandManager.AddCommandGroup<Command
