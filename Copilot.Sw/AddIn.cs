@@ -56,4 +56,4 @@ public class AddIn : SwAddInEx,IAddin
         CommandManager.AddCommandGroup<Commands>().CommandClick += AddIn_CommandClick; ;
 
         //Add context menu
-        CommandManager.
+        CommandManager.AddContextMenu<ContextCommands>(SelectType_e.Everything).CommandClick += AddIn_ContextCommandCli
