@@ -56,4 +56,9 @@ public class AddIn : SwAddInEx,IAddin
         CommandManager.AddCommandGroup<Commands>().CommandClick += AddIn_CommandClick; ;
 
         //Add context menu
-        CommandManager.AddContextMenu<ContextCommands>(SelectType_e.Everything).CommandClick += AddIn_ContextCommandCli
+        CommandManager.AddContextMenu<ContextCommands>(SelectType_e.Everything).CommandClick += AddIn_ContextCommandClick; ;
+    }
+
+    public override void OnDisconnect()
+    {
+        AppDomain.Curren
