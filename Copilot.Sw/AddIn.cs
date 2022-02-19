@@ -61,4 +61,8 @@ public class AddIn : SwAddInEx,IAddin
 
     public override void OnDisconnect()
     {
-        AppDomain.Curren
+        AppDomain.CurrentDomain.AssemblyResolve -= CurrentDomain_AssemblyResolve;
+    }
+    #endregion
+
+    #re
