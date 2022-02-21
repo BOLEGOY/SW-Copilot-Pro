@@ -66,4 +66,7 @@ public class AddIn : SwAddInEx,IAddin
     #endregion
 
     #region Private Methods
-    private void AddIn_ContextCommandClick(ContextCommands
+    private void AddIn_ContextCommandClick(ContextCommands spec)
+    {
+        if (spec == ContextCommands.SolidWorksCopilot)
+     
