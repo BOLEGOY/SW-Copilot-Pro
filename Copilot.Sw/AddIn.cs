@@ -69,4 +69,6 @@ public class AddIn : SwAddInEx,IAddin
     private void AddIn_ContextCommandClick(ContextCommands spec)
     {
         if (spec == ContextCommands.SolidWorksCopilot)
+        {
+            Services.GetService<QuickChatPane>()?.Show();
      
