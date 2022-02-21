@@ -65,4 +65,5 @@ public class AddIn : SwAddInEx,IAddin
     }
     #endregion
 
-    #re
+    #region Private Methods
+    private void AddIn_ContextCommandClick(ContextCommands
