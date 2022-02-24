@@ -76,4 +76,6 @@ public class AddIn : SwAddInEx,IAddin
 
     private void AddIn_CommandClick(Commands spec)
     {
-        if (
+        if (spec == Commands.SolidWorksCopilot)
+        {
+            Services.GetService<Q
