@@ -82,4 +82,8 @@ public class AddIn : SwAddInEx,IAddin
         }
     }
 
-    private IServiceProvider Confi
+    private IServiceProvider ConfigureCopilotServices()
+    {
+        var services = new ServiceCollection();
+
+        services.A
