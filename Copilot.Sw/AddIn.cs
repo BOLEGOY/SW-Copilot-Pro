@@ -78,4 +78,8 @@ public class AddIn : SwAddInEx,IAddin
     {
         if (spec == Commands.SolidWorksCopilot)
         {
-            Services.GetService<Q
+            Services.GetService<QuickChatPane>()?.Show();
+        }
+    }
+
+    private IServiceProvider Confi
