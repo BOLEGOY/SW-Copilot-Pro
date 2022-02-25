@@ -86,4 +86,6 @@ public class AddIn : SwAddInEx,IAddin
     {
         var services = new ServiceCollection();
 
-        services.A
+        services.AddSingleton<IAddin>(this);
+        
+        services.AddSingleton<IText
