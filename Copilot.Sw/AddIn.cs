@@ -88,4 +88,5 @@ public class AddIn : SwAddInEx,IAddin
 
         services.AddSingleton<IAddin>(this);
         
-        services.AddSingleton<IText
+        services.AddSingleton<ITextCompletionProvider,TextCompletionProvider>();
+        services.AddSinglet
