@@ -94,4 +94,5 @@ public class AddIn : SwAddInEx,IAddin
         services.AddSingleton<IDialogService, DialogService>();
 
         services.AddSingleton<WPFChatPaneViewModel>();
-  
+        
+        services.AddTransient<SettingsWindowViewModel>
