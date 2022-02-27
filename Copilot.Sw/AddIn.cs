@@ -91,4 +91,7 @@ public class AddIn : SwAddInEx,IAddin
         services.AddSingleton<ITextCompletionProvider,TextCompletionProvider>();
         services.AddSingleton<ISkillsProvider,SkillsProvider>();
 
-        services.AddSingleton<IDialogSer
+        services.AddSingleton<IDialogService, DialogService>();
+
+        services.AddSingleton<WPFChatPaneViewModel>();
+  
