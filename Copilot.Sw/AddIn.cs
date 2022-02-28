@@ -107,4 +107,8 @@ public class AddIn : SwAddInEx,IAddin
         object? sender,
         ResolveEventArgs args)
     {
-        var assemblyNa
+        var assemblyName = new AssemblyName(args.Name).Name + ".dll";
+
+        try
+        {
+            var f
