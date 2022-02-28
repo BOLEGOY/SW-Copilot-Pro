@@ -100,4 +100,8 @@ public class AddIn : SwAddInEx,IAddin
         services.AddTransient<QuickChatPaneViewModel>();
         services.AddTransient<QuickChatPane>();
 
-        return services.BuildServ
+        return services.BuildServiceProvider();
+    }
+
+    private Assembly? CurrentDomain_AssemblyResolve(
+        
