@@ -113,4 +113,7 @@ public class AddIn : SwAddInEx,IAddin
         {
             var file = Path.Combine(AddinDirectory, assemblyName);
 
-            if (File.Exists(
+            if (File.Exists(file))
+            {
+                return Assembly.LoadFrom(file);
+         
