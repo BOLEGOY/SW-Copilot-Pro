@@ -98,4 +98,6 @@ public class AddIn : SwAddInEx,IAddin
         services.AddTransient<SettingsWindowViewModel>();
 
         services.AddTransient<QuickChatPaneViewModel>();
-    
+        services.AddTransient<QuickChatPane>();
+
+        return services.BuildServ
