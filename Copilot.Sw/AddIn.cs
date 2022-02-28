@@ -104,4 +104,7 @@ public class AddIn : SwAddInEx,IAddin
     }
 
     private Assembly? CurrentDomain_AssemblyResolve(
-        
+        object? sender,
+        ResolveEventArgs args)
+    {
+        var assemblyNa
