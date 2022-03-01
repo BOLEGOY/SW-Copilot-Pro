@@ -116,4 +116,8 @@ public class AddIn : SwAddInEx,IAddin
             if (File.Exists(file))
             {
                 return Assembly.LoadFrom(file);
-         
+            }
+            else
+            {
+                Debug.Print(file);
+   
