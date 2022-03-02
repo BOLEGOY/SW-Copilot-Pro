@@ -131,3 +131,4 @@ public class AddIn : SwAddInEx,IAddin
         }
     }
     #endregion
+}
