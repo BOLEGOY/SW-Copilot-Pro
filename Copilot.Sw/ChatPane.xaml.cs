@@ -9,4 +9,8 @@ namespace Copilot.Sw;
 /// ChatPane.xaml 的交互逻辑
 /// </summary>
 [Title(AddIn.AddinName)]
-public partial cl
+public partial class ChatPane : UserControl
+{
+    public ChatPane()
+    {
+        Init
