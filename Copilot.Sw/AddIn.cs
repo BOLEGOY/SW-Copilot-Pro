@@ -120,4 +120,7 @@ public class AddIn : SwAddInEx,IAddin
             else
             {
                 Debug.Print(file);
-   
+                return null;
+            }
+        }
+        catch (Exce
