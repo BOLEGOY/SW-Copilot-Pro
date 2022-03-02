@@ -13,4 +13,6 @@ public partial class ChatPane : UserControl
 {
     public ChatPane()
     {
-        Init
+        InitializeComponent();
+
+        webView.CreationProperties = new Microsoft.Web.WebView2
