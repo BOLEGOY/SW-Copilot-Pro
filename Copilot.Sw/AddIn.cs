@@ -123,4 +123,7 @@ public class AddIn : SwAddInEx,IAddin
                 return null;
             }
         }
-        catch (Exce
+        catch (Exception ex)
+        {
+            throw new Exception(
+                str
