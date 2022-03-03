@@ -17,4 +17,10 @@ public partial class ChatPane : UserControl
 
         webView.CreationProperties = new Microsoft.Web.WebView2.Wpf.CoreWebView2CreationProperties
         {
-            UserDataFolder = InitUser
+            UserDataFolder = InitUserDataFolder()
+        };
+    }
+
+    private static string InitUserDataFolder()
+    {
+     
