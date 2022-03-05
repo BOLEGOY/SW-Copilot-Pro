@@ -23,4 +23,5 @@ public partial class ChatPane : UserControl
 
     private static string InitUserDataFolder()
     {
-        string userDataFolder = Path.Combine(Environment.GetFolderPath(Environment.Spec
+        string userDataFolder = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), AddIn.AddinName);
+        if (!Di
