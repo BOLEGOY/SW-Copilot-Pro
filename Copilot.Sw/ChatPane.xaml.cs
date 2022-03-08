@@ -25,4 +25,8 @@ public partial class ChatPane : UserControl
     {
         string userDataFolder = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), AddIn.AddinName);
         if (!Directory.Exists(userDataFolder))
-            Directory.CreateDirectory(userDataF
+            Directory.CreateDirectory(userDataFolder);
+
+        return userDataFolder;
+    }
+}
