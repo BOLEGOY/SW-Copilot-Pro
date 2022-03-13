@@ -6,4 +6,8 @@ public enum ServerType
     Azure,
 }
 
-publi
+public sealed class TextCompletionConfig
+{
+    /// <summary>
+    /// name for this config
+    
