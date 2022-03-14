@@ -28,4 +28,7 @@ public sealed class TextCompletionConfig
     /// </summary>
     public string? Endpoint { get; set; }
 
-    /// <summ
+    /// <summary>
+    /// the api key for openai or azure
+    /// </summary>
+    pub
