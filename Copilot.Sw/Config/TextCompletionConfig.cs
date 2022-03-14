@@ -31,4 +31,7 @@ public sealed class TextCompletionConfig
     /// <summary>
     /// the api key for openai or azure
     /// </summary>
-    pub
+    public string? Apikey { get; set; }
+
+    /// <summary>
+    /// org,optional
