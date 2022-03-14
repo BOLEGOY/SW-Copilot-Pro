@@ -35,3 +35,6 @@ public sealed class TextCompletionConfig
 
     /// <summary>
     /// org,optional
+    /// </summary>
+    public string? Org { get; set; }
+}
