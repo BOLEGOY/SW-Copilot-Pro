@@ -16,4 +16,9 @@ public sealed class TextCompletionConfig
     /// <summary>
     /// type openai of azure
     /// </summary>
-    public ServerType Type
+    public ServerType Type { get; set; }
+
+    /// <summary>
+    /// the llm model
+    /// </summary>
+    public st
