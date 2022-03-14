@@ -14,4 +14,6 @@ public sealed class TextCompletionConfig
     public string? Name { get; set; }
 
     /// <summary>
-    
+    /// type openai of azure
+    /// </summary>
+    public ServerType Type
