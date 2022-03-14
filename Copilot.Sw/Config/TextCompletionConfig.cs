@@ -25,4 +25,7 @@ public sealed class TextCompletionConfig
 
     /// <summary>
     /// endpoint if using azure
- 
+    /// </summary>
+    public string? Endpoint { get; set; }
+
+    /// <summ
