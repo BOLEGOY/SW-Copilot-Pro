@@ -10,4 +10,8 @@ public sealed class TextCompletionConfig
 {
     /// <summary>
     /// name for this config
+    /// </summary>
+    public string? Name { get; set; }
+
+    /// <summary>
     
