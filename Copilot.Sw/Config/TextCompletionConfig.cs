@@ -21,4 +21,8 @@ public sealed class TextCompletionConfig
     /// <summary>
     /// the llm model
     /// </summary>
-    public st
+    public string? Model { get; set; }
+
+    /// <summary>
+    /// endpoint if using azure
+ 
