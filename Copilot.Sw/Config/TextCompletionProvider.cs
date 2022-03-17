@@ -12,4 +12,6 @@ public class TextCompletionProvider:ITextCompletionProvider
     public string FilePathName => Path.Combine(SaveLocation, "settings.json");
 
     public TextCompletionProvider()
-   
+    {
+        SaveLocation = Path.Combine(
+            Environment.GetFolderPath(Environ
