@@ -5,4 +5,11 @@ using System.Text.Json;
 
 namespace Copilot.Sw.Config;
 
-public class TextCompletionProvider:ITextCompletionProv
+public class TextCompletionProvider:ITextCompletionProvider
+{
+    public string SaveLocation { get; set; }
+
+    public string FilePathName => Path.Combine(SaveLocation, "settings.json");
+
+    public TextCompletionProvider()
+   
