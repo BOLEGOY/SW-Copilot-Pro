@@ -14,4 +14,8 @@ public class TextCompletionProvider:ITextCompletionProvider
     public TextCompletionProvider()
     {
         SaveLocation = Path.Combine(
-            Environment.GetFolderPath(Environ
+            Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData),
+            AddIn.AddinName);
+    }
+
+    publi
