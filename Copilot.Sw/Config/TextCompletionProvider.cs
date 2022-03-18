@@ -18,4 +18,8 @@ public class TextCompletionProvider:ITextCompletionProvider
             AddIn.AddinName);
     }
 
-    publi
+    public IReadOnlyList<TextCompletionConfig>? Load()
+    {
+        Check();
+
+  
