@@ -22,4 +22,7 @@ public class TextCompletionProvider:ITextCompletionProvider
     {
         Check();
 
-  
+        if (!File.Exists(FilePathName))
+        {
+            return null;
+        }
