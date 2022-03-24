@@ -26,3 +26,6 @@ public class TextCompletionProvider:ITextCompletionProvider
         {
             return null;
         }
+
+        var text = File.ReadAllText(FilePathName);
+        var configs = Js
