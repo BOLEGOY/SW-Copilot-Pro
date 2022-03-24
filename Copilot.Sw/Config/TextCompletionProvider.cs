@@ -28,4 +28,6 @@ public class TextCompletionProvider:ITextCompletionProvider
         }
 
         var text = File.ReadAllText(FilePathName);
-        var configs = Js
+        var configs = JsonSerializer.Deserialize<List<TextCompletionConfig>>(text);
+
+        return conf
