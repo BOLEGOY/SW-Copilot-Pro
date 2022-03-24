@@ -33,4 +33,9 @@ public class TextCompletionProvider:ITextCompletionProvider
         return configs;
     }
 
-    public void Wirte(IList<TextCompletionConfig> textCompl
+    public void Wirte(IList<TextCompletionConfig> textCompletionConfigs)
+    {
+        Check();
+
+        if (textCompletionConfigs is null)
+        {
