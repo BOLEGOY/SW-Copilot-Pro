@@ -30,4 +30,7 @@ public class TextCompletionProvider:ITextCompletionProvider
         var text = File.ReadAllText(FilePathName);
         var configs = JsonSerializer.Deserialize<List<TextCompletionConfig>>(text);
 
-        return conf
+        return configs;
+    }
+
+    public void Wirte(IList<TextCompletionConfig> textCompl
