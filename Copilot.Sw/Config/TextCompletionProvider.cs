@@ -39,3 +39,5 @@ public class TextCompletionProvider:ITextCompletionProvider
 
         if (textCompletionConfigs is null)
         {
+            throw new ArgumentNullException(nameof(textCompletionConfigs));
+     
