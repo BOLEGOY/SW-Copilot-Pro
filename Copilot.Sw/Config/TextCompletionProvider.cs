@@ -44,3 +44,8 @@ public class TextCompletionProvider:ITextCompletionProvider
 
         var text = JsonSerializer.Serialize(textCompletionConfigs);
 
+        File.WriteAllText(FilePathName, text);
+    }
+
+    private void Check()
+   
