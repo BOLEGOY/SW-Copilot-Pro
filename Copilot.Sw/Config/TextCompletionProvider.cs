@@ -51,4 +51,7 @@ public class TextCompletionProvider:ITextCompletionProvider
     {
         if (!Directory.Exists(SaveLocation))
         {
-            Directory.CreateDi
+            Directory.CreateDirectory(SaveLocation);
+        }
+    }
+}
