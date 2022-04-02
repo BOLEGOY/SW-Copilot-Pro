@@ -17,4 +17,5 @@ public enum ContextCommands
 public enum Commands
 {
     [Title("Copilot")]
-    [Icon(typeof(Resources), 
+    [Icon(typeof(Resources), nameof(Resources.SolidWorksCopilot))]
+    [CommandItemInfo(true,true,WorkspaceTypes
