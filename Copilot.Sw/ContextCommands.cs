@@ -3,4 +3,5 @@ using Xarial.XCad.Base.Attributes;
 using Xarial.XCad.UI.Commands.Attributes;
 using Xarial.XCad.UI.Commands.Enums;
 
-[Title("SolidWorks Copilot
+[Title("SolidWorks Copilot")]
+[Icon(typeof(Resources),nameof(Resources.SolidWorksC
