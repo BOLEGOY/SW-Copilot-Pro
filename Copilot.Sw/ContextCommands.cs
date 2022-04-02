@@ -18,4 +18,6 @@ public enum Commands
 {
     [Title("Copilot")]
     [Icon(typeof(Resources), nameof(Resources.SolidWorksCopilot))]
-    [CommandItemInfo(true,true,WorkspaceTypes
+    [CommandItemInfo(true,true,WorkspaceTypes_e.All,false)]
+    SolidWorksCopilot,
+}
