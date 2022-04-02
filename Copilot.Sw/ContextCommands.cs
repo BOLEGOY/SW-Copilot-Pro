@@ -8,4 +8,6 @@ using Xarial.XCad.UI.Commands.Enums;
 public enum ContextCommands
 {
     [Title("Copilot")]
-    [Icon(typeof(
+    [Icon(typeof(Resources), nameof(Resources.SolidWorksCopilot))]
+    SolidWorksCopilot,
+}
