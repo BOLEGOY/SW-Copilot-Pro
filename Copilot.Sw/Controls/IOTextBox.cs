@@ -28,3 +28,10 @@ public class IOTextBox : TextBox
     IntPtr ChildHwndSourceHook(IntPtr hwnd, int msg, IntPtr wParam, IntPtr lParam, ref bool handled)
     {
         if (msg == WM_GETDLGCODE)
+        {
+            handled = true;
+            return new IntPtr(DLGC_WANTCHARS | DLGC_WANTARROWS | DLGC_HASSETSEL);
+        }
+        return IntPtr.Zero;
+    }
+}
