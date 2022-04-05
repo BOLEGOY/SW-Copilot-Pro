@@ -1,4 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Globalization;
-using S
+using System.Windows;
+using System.Windows.Data;
+
+namespace Copilot.Sw.Converters;
