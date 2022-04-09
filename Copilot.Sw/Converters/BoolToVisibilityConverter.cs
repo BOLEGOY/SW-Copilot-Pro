@@ -11,4 +11,7 @@ public class BoolToVisibilityConverter : IValueConverter
     public object Convert(
         object value, 
         Type targetType, 
-        object param
+        object parameter,
+        CultureInfo culture)
+    {
+        return value is true ? Visibili
