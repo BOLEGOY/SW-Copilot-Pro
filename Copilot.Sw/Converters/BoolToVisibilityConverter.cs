@@ -14,4 +14,8 @@ public class BoolToVisibilityConverter : IValueConverter
         object parameter,
         CultureInfo culture)
     {
-        return value is true ? Visibili
+        return value is true ? Visibility.Visible : Visibility.Collapsed;
+    }
+
+    public object ConvertBack(
+        ob
