@@ -18,4 +18,7 @@ public class BoolToVisibilityConverter : IValueConverter
     }
 
     public object ConvertBack(
-        ob
+        object value, 
+        Type targetType,
+        object parameter, 
+  
