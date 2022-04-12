@@ -23,4 +23,6 @@ public class BoolToVisibilityConverter : IValueConverter
         object parameter, 
         CultureInfo culture)
     {
-        throw new NotImplementedException(
+        throw new NotImplementedException();
+    }
+}
