@@ -2,4 +2,6 @@
 using System.Globalization;
 using System.Windows.Data;
 
-namespace Copi
+namespace Copilot.Sw.Converters;
+
+public sealed class EnumStringConverter : IValueCon
