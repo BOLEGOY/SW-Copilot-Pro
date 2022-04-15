@@ -6,4 +6,7 @@ namespace Copilot.Sw.Converters;
 
 public sealed class EnumStringConverter : IValueConverter
 {
-    public object? Convert(object value, Type targetType, objec
+    public object? Convert(object value, Type targetType, object parameter, CultureInfo culture)
+    {
+        if (value is Enum @enum)
+    
