@@ -14,3 +14,6 @@ public sealed class EnumStringConverter : IValueConverter
         }
 
         return null;
+    }
+
+    public object? ConvertBack(object value, Type targetType, objec
