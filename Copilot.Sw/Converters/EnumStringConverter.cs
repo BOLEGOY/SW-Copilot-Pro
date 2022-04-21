@@ -9,4 +9,8 @@ public sealed class EnumStringConverter : IValueConverter
     public object? Convert(object value, Type targetType, object parameter, CultureInfo culture)
     {
         if (value is Enum @enum)
-    
+        {
+            return value.ToString();
+        }
+
+        return null;
