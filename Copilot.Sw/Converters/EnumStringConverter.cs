@@ -16,4 +16,7 @@ public sealed class EnumStringConverter : IValueConverter
         return null;
     }
 
-    public object? ConvertBack(object value, Type targetType, objec
+    public object? ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+    {
+        var str = value as string;
+       
