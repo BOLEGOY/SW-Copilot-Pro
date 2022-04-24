@@ -23,4 +23,6 @@ public sealed class EnumStringConverter : IValueConverter
         {
             return Enum.Parse(targetType, str);
         }
-        return 
+        return null;
+    }
+}
