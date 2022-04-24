@@ -7,4 +7,7 @@ namespace Copilot.Sw.Converters;
 
 public class InvertBoolToVisibilityConverter : IValueConverter
 {
-    public object Convert
+    public object Convert(
+        object value,
+        Type targetType,
+        object pa
