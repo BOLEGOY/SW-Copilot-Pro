@@ -10,4 +10,7 @@ public class InvertBoolToVisibilityConverter : IValueConverter
     public object Convert(
         object value,
         Type targetType,
-        object pa
+        object parameter,
+        CultureInfo culture)
+    {
+        return value is false
