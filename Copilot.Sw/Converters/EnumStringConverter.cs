@@ -19,4 +19,5 @@ public sealed class EnumStringConverter : IValueConverter
     public object? ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
     {
         var str = value as string;
-       
+        if (targetType?.IsEnum == true && !string.IsNullOrEmpty(str))
+        {
