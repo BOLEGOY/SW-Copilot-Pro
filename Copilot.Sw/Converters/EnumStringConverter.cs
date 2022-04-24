@@ -21,3 +21,6 @@ public sealed class EnumStringConverter : IValueConverter
         var str = value as string;
         if (targetType?.IsEnum == true && !string.IsNullOrEmpty(str))
         {
+            return Enum.Parse(targetType, str);
+        }
+        return 
