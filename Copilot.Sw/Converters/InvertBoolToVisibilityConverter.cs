@@ -13,4 +13,7 @@ public class InvertBoolToVisibilityConverter : IValueConverter
         object parameter,
         CultureInfo culture)
     {
-        return value is false
+        return value is false ? Visibility.Visible : Visibility.Collapsed;
+    }
+
+    public object ConvertBac
