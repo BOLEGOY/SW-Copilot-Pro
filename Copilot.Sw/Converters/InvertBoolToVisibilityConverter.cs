@@ -16,4 +16,7 @@ public class InvertBoolToVisibilityConverter : IValueConverter
         return value is false ? Visibility.Visible : Visibility.Collapsed;
     }
 
-    public object ConvertBac
+    public object ConvertBack(
+        object value,
+        Type targetType,
+        object paramet
