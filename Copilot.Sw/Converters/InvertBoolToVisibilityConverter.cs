@@ -19,4 +19,7 @@ public class InvertBoolToVisibilityConverter : IValueConverter
     public object ConvertBack(
         object value,
         Type targetType,
-        object paramet
+        object parameter,
+        CultureInfo culture)
+    {
+        throw new NotImplemente
