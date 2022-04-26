@@ -9,4 +9,6 @@
     <EnableComHosting>true</EnableComHosting>
   </PropertyGroup>
 
-  <
+  <ItemGroup>
+    <None Remove="Assets\Icons\SolidWorksCopilot.png" />
+  </ItemGr
