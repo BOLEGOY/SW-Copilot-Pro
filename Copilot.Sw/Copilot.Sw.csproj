@@ -5,4 +5,8 @@
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
     <UseWindowsForms>true</UseWindowsForms>
-    <
+    <LangVersion>latest</LangVersion>
+    <EnableComHosting>true</EnableComHosting>
+  </PropertyGroup>
+
+  <
