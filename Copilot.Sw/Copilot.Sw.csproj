@@ -21,4 +21,5 @@
     <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.0-preview2" />
     <!--<PackageReference Include="HtmlRenderer.Core.NetStandard2" Version="1.5.1.1" />-->
     <PackageReference Include="Microsoft.SemanticKernel" Version="0.13.277.1-preview" />
-    <PackageReference Include="Microsoft.Web.WebView2" 
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1724-prerelease" />
+    <PackageReference Include="MvvmDialogs" Versi
