@@ -22,4 +22,5 @@
     <!--<PackageReference Include="HtmlRenderer.Core.NetStandard2" Version="1.5.1.1" />-->
     <PackageReference Include="Microsoft.SemanticKernel" Version="0.13.277.1-preview" />
     <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1724-prerelease" />
-    <PackageReference Include="MvvmDialogs" Versi
+    <PackageReference Include="MvvmDialogs" Version="9.1.0" />
+    <PackageReference Include="WPF-UI" Version="3.0.0-preview.
