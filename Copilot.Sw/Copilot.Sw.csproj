@@ -32,4 +32,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Propert
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+     
