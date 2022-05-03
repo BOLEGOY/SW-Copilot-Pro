@@ -24,4 +24,8 @@
     <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1724-prerelease" />
     <PackageReference Include="MvvmDialogs" Version="9.1.0" />
     <PackageReference Include="WPF-UI" Version="3.0.0-preview.1" />
-    <PackageReference Include="Xarial.XCad.SolidWorks" Version="0.8.0-bet
+    <PackageReference Include="Xarial.XCad.SolidWorks" Version="0.8.0-beta.4627" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Icons\SolidWor
