@@ -28,4 +28,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Assets\Icons\SolidWor
+    <Resource Include="Assets\Icons\SolidWorksCopilot.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Propert
