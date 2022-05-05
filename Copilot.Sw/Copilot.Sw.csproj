@@ -40,4 +40,5 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Prope
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Ge
