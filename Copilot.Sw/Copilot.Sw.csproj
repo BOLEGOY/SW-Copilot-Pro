@@ -47,4 +47,5 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Skills\SketchSkill\
+    <None Update="Skills\SketchSkill\CreateCircle\config.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDir
