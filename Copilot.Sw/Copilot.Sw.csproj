@@ -50,4 +50,6 @@
     <None Update="Skills\SketchSkill\CreateCircle\config.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Skills\SketchSkill\CreateCircle\skpr
+    <None Update="Skills\SketchSkill\CreateCircle\skprompt.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    <
