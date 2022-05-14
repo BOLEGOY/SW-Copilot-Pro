@@ -54,4 +54,5 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="Skills\SketchSkill\CreateSketchSegment\skprompt.txt">
- 
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    <
