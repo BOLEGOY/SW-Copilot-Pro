@@ -1,2 +1,6 @@
 ﻿using System.Collections.Generic;
-using Syste
+using System.Collections.ObjectModel;
+
+namespace Copilot.Sw.Extensions;
+
+public static class Obser
