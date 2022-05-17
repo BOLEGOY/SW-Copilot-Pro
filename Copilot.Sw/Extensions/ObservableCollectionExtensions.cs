@@ -5,4 +5,6 @@ namespace Copilot.Sw.Extensions;
 
 public static class ObservableCollectionExtensions
 {
-    public static ObservableCollection<T>? ToO
+    public static ObservableCollection<T>? ToObservableCollection<T>(this IEnumerable<T> list)
+    {
+        if 
