@@ -17,4 +17,7 @@ public interface IAddin
     /// </summary>
     IServiceProvider Services { get; }
 
- 
+    ISldWorks Sw { get; }
+
+    nint SwHandle { get; }
+}
