@@ -7,4 +7,9 @@ public static class ObservableCollectionExtensions
 {
     public static ObservableCollection<T>? ToObservableCollection<T>(this IEnumerable<T> list)
     {
-        if 
+        if (list == null)
+        {
+            return null;
+        }
+
+        r
