@@ -13,4 +13,8 @@ public interface IAddin
     string AddinDirectory { get; }
 
     /// <summary>
-    /// Copi
+    /// Copilot Service
+    /// </summary>
+    IServiceProvider Services { get; }
+
+ 
