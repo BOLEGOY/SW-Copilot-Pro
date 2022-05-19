@@ -4,4 +4,9 @@ using System;
 
 /// <summary>
 /// Represent a SolidWorks Addin
-/// </summar
+/// </summary>
+public interface IAddin
+{
+    /// <summary>
+    /// Addin Installation dir
+    
