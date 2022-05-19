@@ -12,4 +12,6 @@ public static class ObservableCollectionExtensions
             return null;
         }
 
-        r
+        return new ObservableCollection<T>(list);
+    }
+}

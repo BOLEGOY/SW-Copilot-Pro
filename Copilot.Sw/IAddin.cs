@@ -1,0 +1,2 @@
+﻿
+using SolidWorks.Interop.sldworks
