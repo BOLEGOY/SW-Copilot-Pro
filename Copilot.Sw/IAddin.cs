@@ -9,4 +9,8 @@ public interface IAddin
 {
     /// <summary>
     /// Addin Installation dir
-    
+    /// </summary>
+    string AddinDirectory { get; }
+
+    /// <summary>
+    /// Copi
