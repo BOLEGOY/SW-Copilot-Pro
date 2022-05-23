@@ -1,4 +1,6 @@
 ﻿namespace Copilot.Sw.Models;
 
 
-public class As
+public class AskMessage : Message
+{
+    public override MessageType MessageType => Me
