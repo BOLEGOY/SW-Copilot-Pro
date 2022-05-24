@@ -3,4 +3,5 @@
 
 public class AskMessage : Message
 {
-    public override MessageType MessageType => Me
+    public override MessageType MessageType => MessageType.Ask;
+}
