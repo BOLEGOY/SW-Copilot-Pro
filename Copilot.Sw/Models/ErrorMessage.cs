@@ -2,4 +2,5 @@
 
 public class ErrorMessage : Message
 {
-    public override Me
+    public override MessageType MessageType => MessageType.Error;
+}
