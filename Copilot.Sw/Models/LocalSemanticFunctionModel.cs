@@ -8,3 +8,5 @@ namespace Copilot.Sw.Models;
 /// 本地语义函数
 /// </summary>
 public class LocalSemanticFunctionModel
+{
+    public LocalSemanticFunctionModel(string pathName,string categor
