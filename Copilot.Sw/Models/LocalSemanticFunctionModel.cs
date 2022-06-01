@@ -9,4 +9,8 @@ namespace Copilot.Sw.Models;
 /// </summary>
 public class LocalSemanticFunctionModel
 {
-    public LocalSemanticFunctionModel(string pathName,string categor
+    public LocalSemanticFunctionModel(string pathName,string category, string skillDir)
+    {
+        PathName = pathName;
+        Category = category;
+        
