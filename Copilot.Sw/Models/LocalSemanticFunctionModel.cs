@@ -13,4 +13,5 @@ public class LocalSemanticFunctionModel
     {
         PathName = pathName;
         Category = category;
-        
+        SkillDir = skillDir;
+        Name = new DirectoryInfo(Path.GetDirectoryName(
