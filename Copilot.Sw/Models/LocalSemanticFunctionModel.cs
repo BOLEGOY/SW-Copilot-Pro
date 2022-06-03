@@ -17,4 +17,7 @@ public class LocalSemanticFunctionModel
         Name = new DirectoryInfo(Path.GetDirectoryName(pathName)).Name;
 
         var configFile = Path.Combine(
-            Path.GetD
+            Path.GetDirectoryName(pathName),
+            "config.json");
+
+        if (File.Exists(c
