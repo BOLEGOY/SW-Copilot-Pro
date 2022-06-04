@@ -20,4 +20,8 @@ public class LocalSemanticFunctionModel
             Path.GetDirectoryName(pathName),
             "config.json");
 
-        if (File.Exists(c
+        if (File.Exists(configFile))
+        {
+            var data = File.ReadAllText(configFile);
+
+            v
