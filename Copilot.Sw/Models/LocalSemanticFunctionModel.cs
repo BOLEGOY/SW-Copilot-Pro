@@ -24,4 +24,5 @@ public class LocalSemanticFunctionModel
         {
             var data = File.ReadAllText(configFile);
 
-            var dic = JsonSerializer.Deserialize<Dictionary<string, objec
+            var dic = JsonSerializer.Deserialize<Dictionary<string, object>>(data);
+            if (dic?.TryGetValue("description", out var value)
