@@ -28,4 +28,10 @@ public class LocalSemanticFunctionModel
             if (dic?.TryGetValue("description", out var value) == true)
             {
                 Description = value.ToString();
-          
+            }
+        }
+    }
+
+    #region Properties
+    /// <summary>
+    /// Fun
