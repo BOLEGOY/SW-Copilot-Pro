@@ -38,4 +38,7 @@ public class LocalSemanticFunctionModel
     /// </summary>
     public string Name { get; }
 
-    /// <summary
+    /// <summary>
+    /// PathName
+    /// </summary>
+    public string PathName { get; 
