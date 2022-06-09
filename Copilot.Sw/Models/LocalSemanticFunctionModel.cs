@@ -41,4 +41,9 @@ public class LocalSemanticFunctionModel
     /// <summary>
     /// PathName
     /// </summary>
-    public string PathName { get; 
+    public string PathName { get; }
+
+    /// <summary>
+    /// Funcation Description
+    /// </summary>
+    public str
