@@ -34,4 +34,8 @@ public class LocalSemanticFunctionModel
 
     #region Properties
     /// <summary>
-    /// Fun
+    /// Funcation Name
+    /// </summary>
+    public string Name { get; }
+
+    /// <summary
