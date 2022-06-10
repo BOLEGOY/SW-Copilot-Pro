@@ -51,3 +51,8 @@ public class LocalSemanticFunctionModel
     /// <summary>
     /// Skill Name
     /// </summary>
+    public string Category { get; }
+
+    /// <summary>
+    /// Skill dir
+   
