@@ -46,4 +46,8 @@ public class LocalSemanticFunctionModel
     /// <summary>
     /// Funcation Description
     /// </summary>
-    public str
+    public string? Description { get; }
+
+    /// <summary>
+    /// Skill Name
+    /// </summary>
