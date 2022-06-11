@@ -2,4 +2,8 @@
 using System;
 using System.Text.Json.Serialization;
 
-namespace Copilo
+namespace Copilot.Sw.Models;
+
+public abstract partial class Message: ObservableObject
+{
+ 
