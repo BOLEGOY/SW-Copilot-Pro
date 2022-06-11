@@ -1,2 +1,5 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
-u
+using System;
+using System.Text.Json.Serialization;
+
+namespace Copilo
