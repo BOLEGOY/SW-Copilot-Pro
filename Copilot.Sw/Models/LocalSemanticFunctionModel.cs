@@ -55,4 +55,8 @@ public class LocalSemanticFunctionModel
 
     /// <summary>
     /// Skill dir
-   
+    /// </summary>
+    public string SkillDir { get; }
+    #endregion
+
+    public ov
