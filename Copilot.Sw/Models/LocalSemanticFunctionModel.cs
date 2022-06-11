@@ -59,4 +59,5 @@ public class LocalSemanticFunctionModel
     public string SkillDir { get; }
     #endregion
 
-    public ov
+    public override string ToString() => Name;
+}
