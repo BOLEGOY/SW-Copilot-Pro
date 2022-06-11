@@ -11,4 +11,6 @@ public abstract partial class Message: ObservableObject
 
     public string? Content { get; set; }
 
-    public static Message CreateError(st
+    public static Message CreateError(string message)
+    {
+        return new ErrorMessage() { Content = message }
