@@ -6,4 +6,7 @@ namespace Copilot.Sw.Models;
 
 public abstract partial class Message: ObservableObject
 {
- 
+    [JsonIgnore]
+    public abstract MessageType MessageType { get; }
+
+    
