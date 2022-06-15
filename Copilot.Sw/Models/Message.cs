@@ -18,4 +18,7 @@ public abstract partial class Message: ObservableObject
 
     internal static Message CreateAnswer(string result)
     {
-       
+        return new AnswerMessage() {  Content = result };
+    }
+
+    internal static
