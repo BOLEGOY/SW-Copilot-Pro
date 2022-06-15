@@ -13,4 +13,9 @@ public abstract partial class Message: ObservableObject
 
     public static Message CreateError(string message)
     {
-        return new ErrorMessage() { Content = message }
+        return new ErrorMessage() { Content = message };
+    }
+
+    internal static Message CreateAnswer(string result)
+    {
+       
