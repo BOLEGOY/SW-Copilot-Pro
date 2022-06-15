@@ -21,4 +21,6 @@ public abstract partial class Message: ObservableObject
         return new AnswerMessage() {  Content = result };
     }
 
-    internal static
+    internal static Message CreateAsk(string input)
+    {
+        return new AskMessage() { Co
