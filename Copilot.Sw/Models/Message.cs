@@ -23,4 +23,10 @@ public abstract partial class Message: ObservableObject
 
     internal static Message CreateAsk(string input)
     {
-        return new AskMessage() { Co
+        return new AskMessage() { Content = input };
+    }
+}
+
+public class PlaneMessage : Message
+{
+    public override M
