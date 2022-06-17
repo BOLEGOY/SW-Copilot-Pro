@@ -29,4 +29,5 @@ public abstract partial class Message: ObservableObject
 
 public class PlaneMessage : Message
 {
-    public override M
+    public override MessageType MessageType => MessageType.Answer;
+}
