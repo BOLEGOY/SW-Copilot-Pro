@@ -7,4 +7,8 @@ public class SkillConfigModel
 {
     public string? Name { get; set; }
 
-    public s
+    public string? Rule { get; set; }
+
+    public List<string>? Samples { get; set; }
+
+    p
