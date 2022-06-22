@@ -11,4 +11,5 @@ public class SkillConfigModel
 
     public List<string>? Samples { get; set; }
 
-    p
+    public SwWorkingContext SwWorkingContext { get; set; }
+}
