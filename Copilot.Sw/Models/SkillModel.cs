@@ -8,4 +8,7 @@ namespace Copilot.Sw.Models;
 /// <summary>
 /// AI Skill
 /// </summary>
-pu
+public class SkillModel
+{
+    /// <summary>
+    /// Create a skill model 
