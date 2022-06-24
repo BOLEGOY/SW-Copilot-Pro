@@ -11,4 +11,6 @@ namespace Copilot.Sw.Models;
 public class SkillModel
 {
     /// <summary>
-    /// Create a skill model 
+    /// Create a skill model for ui present
+    /// </summary>
+    /// <param name="location">propmpt fil
