@@ -13,4 +13,7 @@ public class SkillModel
     /// <summary>
     /// Create a skill model for ui present
     /// </summary>
-    /// <param name="location">propmpt fil
+    /// <param name="location">propmpt file pathName</param>
+    public SkillModel(string skillDir)
+    {
+        SkillDir =
