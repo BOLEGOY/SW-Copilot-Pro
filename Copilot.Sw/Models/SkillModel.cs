@@ -20,4 +20,4 @@ public class SkillModel
         Name = new DirectoryInfo(skillDir).Name;
 
         var files = Directory.GetFiles(skillDir, "*.txt", SearchOption.AllDirectories)
-    
+            .Where(f => Path.GetFileNameWithoutExtension(f).EndsWith("skprompt"));
