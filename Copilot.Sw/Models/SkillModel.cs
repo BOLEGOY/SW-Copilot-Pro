@@ -19,4 +19,5 @@ public class SkillModel
         SkillDir = skillDir;
         Name = new DirectoryInfo(skillDir).Name;
 
-        va
+        var files = Directory.GetFiles(skillDir, "*.txt", SearchOption.AllDirectories)
+    
