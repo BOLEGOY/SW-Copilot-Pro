@@ -16,4 +16,7 @@ public class SkillModel
     /// <param name="location">propmpt file pathName</param>
     public SkillModel(string skillDir)
     {
-        SkillDir =
+        SkillDir = skillDir;
+        Name = new DirectoryInfo(skillDir).Name;
+
+        va
