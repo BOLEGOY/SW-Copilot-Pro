@@ -21,3 +21,6 @@ public class SkillModel
 
         var files = Directory.GetFiles(skillDir, "*.txt", SearchOption.AllDirectories)
             .Where(f => Path.GetFileNameWithoutExtension(f).EndsWith("skprompt"));
+
+        SemanticFunctions = files
+            .Select(p => new LocalSemanticFunctionModel(p
