@@ -23,4 +23,7 @@ public class SkillModel
             .Where(f => Path.GetFileNameWithoutExtension(f).EndsWith("skprompt"));
 
         SemanticFunctions = files
-            .Select(p => new LocalSemanticFunctionModel(p
+            .Select(p => new LocalSemanticFunctionModel(p,Name,skillDir))
+            .ToList();
+
+        var configPathName = Path.Combine(s
