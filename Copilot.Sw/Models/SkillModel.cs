@@ -26,4 +26,7 @@ public class SkillModel
             .Select(p => new LocalSemanticFunctionModel(p,Name,skillDir))
             .ToList();
 
-        var configPathName = Path.Combine(s
+        var configPathName = Path.Combine(skillDir, "config.json");
+        if (File.Exists(configPathName))
+        {
+            Con
