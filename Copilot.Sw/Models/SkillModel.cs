@@ -29,4 +29,9 @@ public class SkillModel
         var configPathName = Path.Combine(skillDir, "config.json");
         if (File.Exists(configPathName))
         {
-            Config = JsonSerializer.Deserialize<SkillConfigModel>(File.Re
+            Config = JsonSerializer.Deserialize<SkillConfigModel>(File.ReadAllText(configPathName));
+        }
+    }
+
+    #region Properties
+    public List<LocalS
