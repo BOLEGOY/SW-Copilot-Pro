@@ -29,4 +29,4 @@ public class SkillModel
         var configPathName = Path.Combine(skillDir, "config.json");
         if (File.Exists(configPathName))
         {
-            Con
+            Config = JsonSerializer.Deserialize<SkillConfigModel>(File.Re
