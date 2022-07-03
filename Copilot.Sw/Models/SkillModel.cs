@@ -34,4 +34,7 @@ public class SkillModel
     }
 
     #region Properties
-    public List<LocalS
+    public List<LocalSemanticFunctionModel> SemanticFunctions { get;}
+    
+    /// <summary>
+    /// S
