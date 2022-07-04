@@ -37,4 +37,8 @@ public class SkillModel
     public List<LocalSemanticFunctionModel> SemanticFunctions { get;}
     
     /// <summary>
-    /// S
+    /// Skill Name
+    /// </summary>
+    public string Name { get;  }
+
+    /// <su
