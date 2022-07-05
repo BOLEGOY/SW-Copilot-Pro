@@ -44,4 +44,9 @@ public class SkillModel
     /// <summary>
     /// Skill PathName
     /// </summary>
-    public string SkillDir { get;
+    public string SkillDir { get; }
+
+    /// <summary>
+    /// Skill Description
+    /// </summary>
+    public 
