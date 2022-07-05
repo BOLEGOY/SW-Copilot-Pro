@@ -49,4 +49,8 @@ public class SkillModel
     /// <summary>
     /// Skill Description
     /// </summary>
-    public 
+    public string? Description { get; }
+
+    /// <summary>
+    /// Config file for this skill dir.
+   
