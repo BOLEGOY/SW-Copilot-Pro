@@ -56,4 +56,7 @@ public class SkillModel
     /// </summary>
     /// <remarks>
     /// Only for solidworks related skill
-   
+    /// </remarks>
+    public SkillConfigModel? Config { get; }
+
+    /// <summa
