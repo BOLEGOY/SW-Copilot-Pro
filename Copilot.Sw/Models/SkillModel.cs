@@ -53,4 +53,7 @@ public class SkillModel
 
     /// <summary>
     /// Config file for this skill dir.
+    /// </summary>
+    /// <remarks>
+    /// Only for solidworks related skill
    
