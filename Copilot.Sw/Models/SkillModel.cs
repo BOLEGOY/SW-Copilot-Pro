@@ -59,4 +59,8 @@ public class SkillModel
     /// </remarks>
     public SkillConfigModel? Config { get; }
 
-    /// <summa
+    /// <summary>
+    /// index when loop
+    /// </summary>
+    public int Index { get; internal set; }
+    #endregio
