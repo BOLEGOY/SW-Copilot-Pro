@@ -63,4 +63,7 @@ public class SkillModel
     /// index when loop
     /// </summary>
     public int Index { get; internal set; }
-    #endregio
+    #endregion
+
+    public override string ToString() => Name;
+}
