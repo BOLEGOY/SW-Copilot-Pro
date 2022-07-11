@@ -2,4 +2,8 @@
 using System.Collections.Generic;
 using System.Xml;
 
-namespace Copilot.S
+namespace Copilot.Sw.Models
+{
+    public class ExecuteSkillModel
+    {
+        public string SkillName { get; set;
