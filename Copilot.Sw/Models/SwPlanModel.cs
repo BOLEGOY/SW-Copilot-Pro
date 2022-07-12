@@ -11,4 +11,6 @@ namespace Copilot.Sw.Models
         public string Description { get; set; }
     }
 
-    public c
+    public class SwPlanModel
+    {
+        public List<ExecuteSkillModel> ExecuteSkills { 
