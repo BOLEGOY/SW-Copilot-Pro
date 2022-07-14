@@ -20,4 +20,9 @@ namespace Copilot.Sw.Models
             planModel = new SwPlanModel();
             if (string.IsNullOrEmpty(input))
             {
-         
+                return false;
+            }
+
+            try
+            {
+                var x
