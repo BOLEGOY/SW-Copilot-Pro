@@ -25,4 +25,7 @@ namespace Copilot.Sw.Models
 
             try
             {
-                var x
+                var xmlDoc = new XmlDocument();
+                xmlDoc.LoadXml(input);
+
+                fore
