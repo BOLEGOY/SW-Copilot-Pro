@@ -15,4 +15,6 @@ namespace Copilot.Sw.Models
     {
         public List<ExecuteSkillModel> ExecuteSkills { get; } = new List<ExecuteSkillModel>();
 
-        public static bool TryParse(strin
+        public static bool TryParse(string input, out SwPlanModel planModel)
+        {
+            planModel = new SwPlanModel(
