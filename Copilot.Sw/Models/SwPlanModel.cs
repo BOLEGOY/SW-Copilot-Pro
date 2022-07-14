@@ -17,4 +17,7 @@ namespace Copilot.Sw.Models
 
         public static bool TryParse(string input, out SwPlanModel planModel)
         {
-            planModel = new SwPlanModel(
+            planModel = new SwPlanModel();
+            if (string.IsNullOrEmpty(input))
+            {
+         
