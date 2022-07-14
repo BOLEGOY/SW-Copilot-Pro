@@ -28,4 +28,5 @@ namespace Copilot.Sw.Models
                 var xmlDoc = new XmlDocument();
                 xmlDoc.LoadXml(input);
 
-                fore
+                foreach (XmlNode childNode in xmlDoc.FirstChild.ChildNodes)
+                {
