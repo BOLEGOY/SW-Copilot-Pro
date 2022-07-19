@@ -31,4 +31,6 @@ namespace Copilot.Sw.Models
                 foreach (XmlNode childNode in xmlDoc.FirstChild.ChildNodes)
                 {
                     //childNode.Attributes;
-                    var ski
+                    var skill = new ExecuteSkillModel()
+                    {
+                        S
