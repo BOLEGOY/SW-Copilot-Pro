@@ -37,4 +37,5 @@ namespace Copilot.Sw.Models
                         Description = childNode.Attributes["goal"].Value,
                     };
 
- 
+                    planModel.ExecuteSkills.Add(skill);
+             
