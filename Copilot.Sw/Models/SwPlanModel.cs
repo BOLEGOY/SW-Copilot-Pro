@@ -34,4 +34,7 @@ namespace Copilot.Sw.Models
                     var skill = new ExecuteSkillModel()
                     {
                         SkillName = childNode.Attributes["skillname"].Value,
-                        Descrip
+                        Description = childNode.Attributes["goal"].Value,
+                    };
+
+ 
