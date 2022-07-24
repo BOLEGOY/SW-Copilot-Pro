@@ -43,4 +43,9 @@ namespace Copilot.Sw.Models
                 return true;
             }
             catch (Exception)
-   
+            {
+                return false;
+            }
+        }
+    }
+}
