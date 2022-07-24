@@ -38,4 +38,9 @@ namespace Copilot.Sw.Models
                     };
 
                     planModel.ExecuteSkills.Add(skill);
-             
+                }
+
+                return true;
+            }
+            catch (Exception)
+   
