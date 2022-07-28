@@ -11,4 +11,8 @@ public sealed partial class UITextCompletionConfig:ObservableObject
     [ObservableProperty]public string? _name;
 
     /// <summary>
-    /// type openai of azu
+    /// type openai of azure
+    /// </summary>
+    [ObservableProperty]public ServerType _type;
+
+    
