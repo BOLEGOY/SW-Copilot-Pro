@@ -5,4 +5,7 @@ namespace Copilot.Sw.Models;
 
 public sealed partial class UITextCompletionConfig:ObservableObject
 {
-    /// <su
+    /// <summary>
+    /// name for this config
+    /// </summary>
+    [ObservableProp
