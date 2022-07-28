@@ -8,4 +8,7 @@ public sealed partial class UITextCompletionConfig:ObservableObject
     /// <summary>
     /// name for this config
     /// </summary>
-    [ObservableProp
+    [ObservableProperty]public string? _name;
+
+    /// <summary>
+    /// type openai of azu
