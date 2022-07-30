@@ -15,4 +15,7 @@ public sealed partial class UITextCompletionConfig:ObservableObject
     /// </summary>
     [ObservableProperty]public ServerType _type;
 
-    
+    /// <summary>
+    /// the llm model
+    /// </summary>
+    [ObservableProper
