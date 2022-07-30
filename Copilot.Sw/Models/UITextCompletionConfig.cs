@@ -18,4 +18,8 @@ public sealed partial class UITextCompletionConfig:ObservableObject
     /// <summary>
     /// the llm model
     /// </summary>
-    [ObservableProper
+    [ObservableProperty] public string? _model;
+
+    /// <summary>
+    /// endpoint if using azure
+    
