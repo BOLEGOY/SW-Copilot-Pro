@@ -22,4 +22,7 @@ public sealed partial class UITextCompletionConfig:ObservableObject
 
     /// <summary>
     /// endpoint if using azure
-    
+    /// </summary>
+    [ObservableProperty] public string? _endpoint;
+
+    /
