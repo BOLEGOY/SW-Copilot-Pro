@@ -28,4 +28,7 @@ public sealed partial class UITextCompletionConfig:ObservableObject
     /// <summary>
     /// the api key for openai or azure
     /// </summary>
-    [
+    [ObservableProperty] public string? _apikey;
+
+    /// <summary>
+    /// org,optio
