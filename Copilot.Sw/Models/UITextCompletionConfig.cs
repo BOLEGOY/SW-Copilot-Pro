@@ -31,4 +31,6 @@ public sealed partial class UITextCompletionConfig:ObservableObject
     [ObservableProperty] public string? _apikey;
 
     /// <summary>
-    /// org,optio
+    /// org,optional
+    /// </summary>
+    [ObservableProperty] public string? _org;
