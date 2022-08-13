@@ -34,3 +34,8 @@ public sealed partial class UITextCompletionConfig:ObservableObject
     /// org,optional
     /// </summary>
     [ObservableProperty] public string? _org;
+
+    /// <summary>
+    /// 是否作为默认
+    /// </summary>
+    [Observable
