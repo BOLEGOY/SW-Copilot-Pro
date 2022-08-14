@@ -38,4 +38,8 @@ public sealed partial class UITextCompletionConfig:ObservableObject
     /// <summary>
     /// 是否作为默认
     /// </summary>
-    [Observable
+    [ObservableProperty]private bool _isDefault;
+
+    public override string ToString()
+    {
+        var st
