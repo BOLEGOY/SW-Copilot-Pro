@@ -42,4 +42,7 @@ public sealed partial class UITextCompletionConfig:ObservableObject
 
     public override string ToString()
     {
-        var st
+        var str = $"{Type}:{Name}";
+        if (!string.IsNullOrEmpty(Endpoint))
+        {
+ 
