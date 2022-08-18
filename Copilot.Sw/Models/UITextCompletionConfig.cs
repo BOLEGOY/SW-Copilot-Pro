@@ -55,4 +55,7 @@ public sealed partial class UITextCompletionConfig:ObservableObject
         return new TextCompletionConfig()
         {
             Model = Model,
-            Endpoint = En
+            Endpoint = Endpoint,
+            Name = Name,
+            Type = Type,
+            Org = Or
