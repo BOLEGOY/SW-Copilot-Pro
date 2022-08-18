@@ -50,4 +50,6 @@ public sealed partial class UITextCompletionConfig:ObservableObject
         return str;
     }
 
-    p
+    public TextCompletionConfig ToTextCompletionConfig()
+    {
+        return new TextComp
