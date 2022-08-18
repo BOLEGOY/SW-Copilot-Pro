@@ -58,4 +58,8 @@ public sealed partial class UITextCompletionConfig:ObservableObject
             Endpoint = Endpoint,
             Name = Name,
             Type = Type,
-            Org = Or
+            Org = Org,
+            Apikey = Apikey,
+        };
+    }
+}
