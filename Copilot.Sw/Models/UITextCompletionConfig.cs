@@ -45,4 +45,9 @@ public sealed partial class UITextCompletionConfig:ObservableObject
         var str = $"{Type}:{Name}";
         if (!string.IsNullOrEmpty(Endpoint))
         {
- 
+            str += $"({Endpoint})";
+        }
+        return str;
+    }
+
+    p
