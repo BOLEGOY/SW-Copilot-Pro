@@ -52,4 +52,7 @@ public sealed partial class UITextCompletionConfig:ObservableObject
 
     public TextCompletionConfig ToTextCompletionConfig()
     {
-        return new TextComp
+        return new TextCompletionConfig()
+        {
+            Model = Model,
+            Endpoint = En
