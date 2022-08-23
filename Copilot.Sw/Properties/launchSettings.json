@@ -1,1 +1,5 @@
 {
+  "profiles": {
+    "Sw": {
+      "commandName": "Executable",
+      "e
