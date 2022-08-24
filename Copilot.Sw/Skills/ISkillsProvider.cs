@@ -8,4 +8,7 @@ public interface ISkillsProvider
     /// <summary>
     /// default directory which save skills
     /// </summary>
-    string Ski
+    string SkillsLocation { get; }
+
+    IEnumerable<SkillModel> GetSkills();
+}
