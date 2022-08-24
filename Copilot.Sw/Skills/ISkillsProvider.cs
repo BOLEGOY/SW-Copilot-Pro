@@ -6,4 +6,6 @@ namespace Copilot.Sw.Skills;
 public interface ISkillsProvider
 {
     /// <summary>
-    /// defa
+    /// default directory which save skills
+    /// </summary>
+    string Ski
