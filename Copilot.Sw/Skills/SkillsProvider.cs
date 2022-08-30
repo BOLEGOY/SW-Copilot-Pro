@@ -8,4 +8,8 @@ namespace Copilot.Sw.Skills;
 public class SkillsProvider : ISkillsProvider
 {
     ///<inheritdoc/>
-    public string Skill
+    public string SkillsLocation { get; }
+
+    public SkillsProvider()
+    {
+        SkillsLocat
