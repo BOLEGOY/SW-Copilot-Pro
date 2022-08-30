@@ -1,4 +1,7 @@
 {
   "Name": "Sketch",
   "SwWorkingContext": "Sketch",
-  "Rule": "Draw primitives in the sketch, including lines, circles, arcs, ellipses, slots, splines, etc."
+  "Rule": "Draw primitives in the sketch, including lines, circles, arcs, ellipses, slots, splines, etc.",
+  "Samples": [
+  ]
+}
