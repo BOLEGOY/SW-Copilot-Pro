@@ -5,4 +5,7 @@ using System.Linq;
 
 namespace Copilot.Sw.Skills;
 
-public class S
+public class SkillsProvider : ISkillsProvider
+{
+    ///<inheritdoc/>
+    public string Skill
