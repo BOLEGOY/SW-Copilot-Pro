@@ -12,4 +12,5 @@ public class SkillsProvider : ISkillsProvider
 
     public SkillsProvider()
     {
-        SkillsLocat
+        SkillsLocation = Path.Combine(
+            Path.GetDirectoryName(typeof(SkillsProvider).Asse
