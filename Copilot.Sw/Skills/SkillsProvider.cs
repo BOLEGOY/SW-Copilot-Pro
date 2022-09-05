@@ -13,4 +13,8 @@ public class SkillsProvider : ISkillsProvider
     public SkillsProvider()
     {
         SkillsLocation = Path.Combine(
-            Path.GetDirectoryName(typeof(SkillsProvider).Asse
+            Path.GetDirectoryName(typeof(SkillsProvider).Assembly.Location), 
+            "Skills");
+    }
+
+    public SkillsProvider(string skilldi
