@@ -22,4 +22,8 @@ public class SkillsProvider : ISkillsProvider
         SkillsLocation = skilldir;
     }
 
-    public IEnumerable<SkillModel> GetS
+    public IEnumerable<SkillModel> GetSkills()
+    {
+        if (!Directory.Exists(SkillsLocation))
+        {
+        
