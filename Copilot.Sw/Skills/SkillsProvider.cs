@@ -26,4 +26,5 @@ public class SkillsProvider : ISkillsProvider
     {
         if (!Directory.Exists(SkillsLocation))
         {
-        
+            throw new DirectoryNotFoundException($"找不到Skill：{SkillsLocation}");
+        }
