@@ -17,4 +17,9 @@ public class SkillsProvider : ISkillsProvider
             "Skills");
     }
 
-    public SkillsProvider(string skilldi
+    public SkillsProvider(string skilldir)
+    {
+        SkillsLocation = skilldir;
+    }
+
+    public IEnumerable<SkillModel> GetS
