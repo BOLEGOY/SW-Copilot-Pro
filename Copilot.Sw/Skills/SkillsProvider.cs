@@ -30,4 +30,7 @@ public class SkillsProvider : ISkillsProvider
         }
 
         var skillDirs = Directory.GetDirectories(SkillsLocation)
-     
+            .Where(p => p.EndsWith("Skill"));
+
+        int index = 1;
+        foreach (var dir in skill
