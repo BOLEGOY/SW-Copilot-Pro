@@ -28,3 +28,6 @@ public class SkillsProvider : ISkillsProvider
         {
             throw new DirectoryNotFoundException($"找不到Skill：{SkillsLocation}");
         }
+
+        var skillDirs = Directory.GetDirectories(SkillsLocation)
+     
