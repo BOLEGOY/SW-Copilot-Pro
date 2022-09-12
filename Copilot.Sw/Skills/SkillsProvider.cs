@@ -33,4 +33,7 @@ public class SkillsProvider : ISkillsProvider
             .Where(p => p.EndsWith("Skill"));
 
         int index = 1;
-        foreach (var dir in skill
+        foreach (var dir in skillDirs)
+        {
+            var model = new SkillModel(dir);
+            model.Index 
