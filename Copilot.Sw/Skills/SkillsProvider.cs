@@ -36,4 +36,8 @@ public class SkillsProvider : ISkillsProvider
         foreach (var dir in skillDirs)
         {
             var model = new SkillModel(dir);
-            model.Index 
+            model.Index = 1;
+            yield return model;
+        }
+    }
+}
