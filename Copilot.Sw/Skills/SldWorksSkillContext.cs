@@ -8,4 +8,7 @@ public abstract class SldWorksSkillContext
     /// <summary>
     /// SolidWorks Interface
     /// </summary>
-    public ISldWorks? Sw => Ioc.Default.Get
+    public ISldWorks? Sw => Ioc.Default.GetService<IAddin>()?.Sw;
+
+    /// <summary>
+    /// SolidWorks Active 
