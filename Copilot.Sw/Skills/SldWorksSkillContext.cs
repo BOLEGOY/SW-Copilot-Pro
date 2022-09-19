@@ -11,4 +11,6 @@ public abstract class SldWorksSkillContext
     public ISldWorks? Sw => Ioc.Default.GetService<IAddin>()?.Sw;
 
     /// <summary>
-    /// SolidWorks Active 
+    /// SolidWorks Active Document
+    /// </summary>
+    public IModelDoc2 ActiveSwDoc => Sw
