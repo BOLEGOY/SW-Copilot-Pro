@@ -1,4 +1,6 @@
 ﻿using CommunityToolkit.Mvvm.DependencyInjection;
 using Copilot.Sw.Skills.SketchSkill;
 using Copilot.Sw.Skills.SolidWorksSkill;
-using Microsoft.SemanticKe
+using Microsoft.SemanticKernel;
+using Microsoft.SemanticKernel.CoreSkills;
+using Microsoft.Seman
