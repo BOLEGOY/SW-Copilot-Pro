@@ -16,4 +16,5 @@ public class SolidWorksPlanSkill
 {
     #region Fields
     private readonly IKernel _kernel;
-  
+    private readonly ISkillsProvider _skillsProvider;
+    private readonly ISKFu
