@@ -12,4 +12,8 @@ using System.Threading.Tasks;
 
 namespace Copilot.Sw.Skills;
 
-pub
+public class SolidWorksPlanSkill
+{
+    #region Fields
+    private readonly IKernel _kernel;
+  
