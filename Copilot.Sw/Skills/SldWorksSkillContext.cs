@@ -13,4 +13,5 @@ public abstract class SldWorksSkillContext
     /// <summary>
     /// SolidWorks Active Document
     /// </summary>
-    public IModelDoc2 ActiveSwDoc => Sw
+    public IModelDoc2 ActiveSwDoc => Sw?.IActiveDoc2;
+}
