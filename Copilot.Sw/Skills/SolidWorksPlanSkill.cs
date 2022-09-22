@@ -7,4 +7,9 @@ using Microsoft.SemanticKernel.Orchestration;
 using Microsoft.SemanticKernel.Planning.Planners;
 using Microsoft.SemanticKernel.SkillDefinition;
 using SolidWorks.Interop.swconst;
-using S
+using System;
+using System.Threading.Tasks;
+
+namespace Copilot.Sw.Skills;
+
+pub
