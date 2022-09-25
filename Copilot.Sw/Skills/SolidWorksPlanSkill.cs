@@ -20,4 +20,5 @@ public class SolidWorksPlanSkill
     private readonly ISKFunction _isThrereSwTaskFunc;
 
     [Obsolete("Use default planner")]
-    priv
+    private readonly ISKFunction _taskPlanFunc;
+    private readonly ISKFunction _cha
