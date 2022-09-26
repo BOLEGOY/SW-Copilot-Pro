@@ -29,4 +29,6 @@ public class SolidWorksPlanSkill
         """
         SolidWorks has some funcations listed:
         1.Create part,assembly,drawing and modify some settings.
-        2.Sketch s
+        2.Sketch some sketch segment,such as line,arc,spline,slot.
+
+        Determine whether the
