@@ -42,4 +42,8 @@ public class SolidWorksPlanSkill
 
     private const string Chat =
         """
-        You are an AI SolidWorks assistant.Your responses should 
+        You are an AI SolidWorks assistant.Your responses should be professional and helpful.
+        {{$INPUT}}
+        """;
+
+    public stati
