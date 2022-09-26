@@ -28,4 +28,5 @@ public class SolidWorksPlanSkill
     private const string IsThereSwTask =
         """
         SolidWorks has some funcations listed:
-     
+        1.Create part,assembly,drawing and modify some settings.
+        2.Sketch s
