@@ -25,4 +25,7 @@ public class SolidWorksPlanSkill
     #endregion
 
     #region Consts
-    private const string IsTh
+    private const string IsThereSwTask =
+        """
+        SolidWorks has some funcations listed:
+     
