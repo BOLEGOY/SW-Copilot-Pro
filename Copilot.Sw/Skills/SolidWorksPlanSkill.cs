@@ -31,4 +31,6 @@ public class SolidWorksPlanSkill
         1.Create part,assembly,drawing and modify some settings.
         2.Sketch some sketch segment,such as line,arc,spline,slot.
 
-        Determine whether the
+        Determine whether the input is a function that can be performed in SolidWorks.
+
+        BEGIN CON
