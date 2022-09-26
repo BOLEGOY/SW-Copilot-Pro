@@ -41,3 +41,5 @@ public class SolidWorksPlanSkill
         """;
 
     private const string Chat =
+        """
+        You are an AI SolidWorks assistant.Your responses should 
