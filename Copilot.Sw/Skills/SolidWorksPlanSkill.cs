@@ -21,4 +21,8 @@ public class SolidWorksPlanSkill
 
     [Obsolete("Use default planner")]
     private readonly ISKFunction _taskPlanFunc;
-    private readonly ISKFunction _cha
+    private readonly ISKFunction _chatFunc;
+    #endregion
+
+    #region Consts
+    private const string IsTh
