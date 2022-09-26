@@ -37,4 +37,7 @@ public class SolidWorksPlanSkill
         {{$INPUT}}
         END CONTENT TO SUMMARIZE.
         
-  
+        Answer with Y or N.
+        """;
+
+    private const string Chat =
