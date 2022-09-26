@@ -33,4 +33,8 @@ public class SolidWorksPlanSkill
 
         Determine whether the input is a function that can be performed in SolidWorks.
 
-        BEGIN CON
+        BEGIN CONTENT TO SUMMARIZE:
+        {{$INPUT}}
+        END CONTENT TO SUMMARIZE.
+        
+  
