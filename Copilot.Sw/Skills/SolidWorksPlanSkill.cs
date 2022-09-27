@@ -46,4 +46,6 @@ public class SolidWorksPlanSkill
         {{$INPUT}}
         """;
 
-    public stati
+    public static class Parameters
+    {
+        public const string ChatWithSolidWorks = nameof
