@@ -48,4 +48,9 @@ public class SolidWorksPlanSkill
 
     public static class Parameters
     {
-        public const string ChatWithSolidWorks = nameof
+        public const string ChatWithSolidWorks = nameof(ChatWithSolidWorks);
+    }
+    #endregion
+
+    #region Ctor
+    public SolidWork
