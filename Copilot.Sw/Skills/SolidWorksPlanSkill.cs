@@ -53,4 +53,6 @@ public class SolidWorksPlanSkill
     #endregion
 
     #region Ctor
-    public SolidWork
+    public SolidWorksPlanSkill(
+        IKernel kernel,
+        ISkillsProvide
