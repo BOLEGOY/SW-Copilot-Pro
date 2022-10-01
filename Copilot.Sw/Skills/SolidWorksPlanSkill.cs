@@ -55,4 +55,8 @@ public class SolidWorksPlanSkill
     #region Ctor
     public SolidWorksPlanSkill(
         IKernel kernel,
-        ISkillsProvide
+        ISkillsProvider skillsProvider,
+        int maxTokens = 1024)
+    {
+        _kernel = kernel;
+        _skillsProv
