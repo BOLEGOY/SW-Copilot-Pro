@@ -64,4 +64,8 @@ public class SolidWorksPlanSkill
         _isThrereSwTaskFunc = kernel.CreateSemanticFunction(
             IsThereSwTask,
             "ChatOrTask",
-            max
+            maxTokens: maxTokens,
+            temperature:0d
+            );
+
+        var
