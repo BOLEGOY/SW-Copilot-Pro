@@ -59,4 +59,6 @@ public class SolidWorksPlanSkill
         int maxTokens = 1024)
     {
         _kernel = kernel;
-        _skillsProv
+        _skillsProvider = skillsProvider;
+
+        _isThrereSwTaskFunc = kernel.CreateSemanticFunction(
