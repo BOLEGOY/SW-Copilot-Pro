@@ -62,3 +62,6 @@ public class SolidWorksPlanSkill
         _skillsProvider = skillsProvider;
 
         _isThrereSwTaskFunc = kernel.CreateSemanticFunction(
+            IsThereSwTask,
+            "ChatOrTask",
+            max
