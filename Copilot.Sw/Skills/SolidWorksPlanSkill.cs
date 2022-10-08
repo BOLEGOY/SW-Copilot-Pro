@@ -69,4 +69,7 @@ public class SolidWorksPlanSkill
             );
 
         var taskPlanPrompt = string.Format(SwSkillSelection.SemanticFuncation, SwSkillSelection.GetAvailavleSkills(_skillsProvider));
-        _taskPlanFunc = kernel.CreateSemanticFuncti
+        _taskPlanFunc = kernel.CreateSemanticFunction(
+            taskPlanPrompt,
+            "SolidWorksTaskPlan",
+           
