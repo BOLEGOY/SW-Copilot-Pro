@@ -68,4 +68,5 @@ public class SolidWorksPlanSkill
             temperature:0d
             );
 
-        var taskPlanPrompt = string.Format(SwSkillSelection.SemanticFuncation, SwSkillSelection
+        var taskPlanPrompt = string.Format(SwSkillSelection.SemanticFuncation, SwSkillSelection.GetAvailavleSkills(_skillsProvider));
+        _taskPlanFunc = kernel.CreateSemanticFuncti
