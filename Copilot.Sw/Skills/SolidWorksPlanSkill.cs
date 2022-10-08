@@ -68,4 +68,4 @@ public class SolidWorksPlanSkill
             temperature:0d
             );
 
-        var
+        var taskPlanPrompt = string.Format(SwSkillSelection.SemanticFuncation, SwSkillSelection
