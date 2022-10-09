@@ -72,4 +72,8 @@ public class SolidWorksPlanSkill
         _taskPlanFunc = kernel.CreateSemanticFunction(
             taskPlanPrompt,
             "SolidWorksTaskPlan",
-           
+            maxTokens:maxTokens,
+            temperature:0.5d
+            );
+
+        _chatFunc 
