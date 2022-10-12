@@ -79,4 +79,6 @@ public class SolidWorksPlanSkill
         _chatFunc = kernel.CreateSemanticFunction(
             Chat,
             "Chat",
-  
+            maxTokens: maxTokens,
+            temperature: 0.8
+            );
