@@ -82,3 +82,8 @@ public class SolidWorksPlanSkill
             maxTokens: maxTokens,
             temperature: 0.8
             );
+    }
+    #endregion
+
+    #region Methods
+    [SKFunction("Chat with SolidWorks,parse
