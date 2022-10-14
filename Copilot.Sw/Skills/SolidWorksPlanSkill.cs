@@ -86,4 +86,5 @@ public class SolidWorksPlanSkill
     #endregion
 
     #region Methods
-    [SKFunction("Chat with SolidWorks,parse
+    [SKFunction("Chat with SolidWorks,parse solidworks perform tasks if there is a goal")]
+    [SKFunctionName(Par
