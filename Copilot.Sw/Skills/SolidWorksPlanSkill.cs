@@ -87,4 +87,5 @@ public class SolidWorksPlanSkill
 
     #region Methods
     [SKFunction("Chat with SolidWorks,parse solidworks perform tasks if there is a goal")]
-    [SKFunctionName(Par
+    [SKFunctionName(Parameters.ChatWithSolidWorks)]
+    public async Task<SKContext> ChatWithSolidWorks
