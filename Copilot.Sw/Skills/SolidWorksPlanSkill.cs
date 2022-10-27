@@ -94,4 +94,7 @@ public class SolidWorksPlanSkill
     {
         var askVariable = new ContextVariables(input);
 
-        var result = await _isTh
+        var result = await _isThrereSwTaskFunc.InvokeAsync(
+            input, 
+            new SKContext(
+                askVari
