@@ -97,4 +97,7 @@ public class SolidWorksPlanSkill
         var result = await _isThrereSwTaskFunc.InvokeAsync(
             input, 
             new SKContext(
-                askVari
+                askVariable,
+                context.Memory,
+                context.Skills,
+       
