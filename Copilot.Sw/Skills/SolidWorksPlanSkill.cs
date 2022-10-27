@@ -100,4 +100,8 @@ public class SolidWorksPlanSkill
                 askVariable,
                 context.Memory,
                 context.Skills,
-       
+                context.Log));
+
+        if (result.Result.Trim() == "Y")
+        {
+      
