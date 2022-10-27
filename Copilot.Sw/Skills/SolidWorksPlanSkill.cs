@@ -92,4 +92,6 @@ public class SolidWorksPlanSkill
         string input,
         SKContext context)
     {
-        var askVar
+        var askVariable = new ContextVariables(input);
+
+        var result = await _isTh
