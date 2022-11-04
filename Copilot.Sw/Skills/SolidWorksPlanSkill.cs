@@ -107,4 +107,6 @@ public class SolidWorksPlanSkill
             //Use Semantic Kernel Plan skill
             //var plan = await _taskPlanFunc.InvokeAsync(input);
             //plan.Variables.Set("Plan", plan.Result);
-       
+            var planner = new SequentialPlanner(_kernel);
+
+            _kern
