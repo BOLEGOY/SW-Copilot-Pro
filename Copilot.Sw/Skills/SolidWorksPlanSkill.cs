@@ -105,4 +105,6 @@ public class SolidWorksPlanSkill
         if (result.Result.Trim() == "Y")
         {
             //Use Semantic Kernel Plan skill
-            //var plan = await _taskPlanFun
+            //var plan = await _taskPlanFunc.InvokeAsync(input);
+            //plan.Variables.Set("Plan", plan.Result);
+       
