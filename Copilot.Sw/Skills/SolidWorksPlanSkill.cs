@@ -116,4 +116,9 @@ public class SolidWorksPlanSkill
         }
         else
         {           
-            var chatResult = await _chatFunc.InvokeAsync(input, cont
+            var chatResult = await _chatFunc.InvokeAsync(input, context);
+            return chatResult;
+        }
+    }    
+    #endregion
+}
