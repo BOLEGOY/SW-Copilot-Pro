@@ -114,4 +114,6 @@ public class SolidWorksPlanSkill
             
             return context;
         }
-     
+        else
+        {           
+            var chatResult = await _chatFunc.InvokeAsync(input, cont
