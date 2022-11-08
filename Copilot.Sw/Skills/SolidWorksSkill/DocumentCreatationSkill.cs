@@ -1,2 +1,4 @@
 ﻿using Microsoft.SemanticKernel.Orchestration;
-using Microsoft.
+using Microsoft.SemanticKernel.SkillDefinition;
+
+namespace Copilot.Sw.Skills.SolidWorksSkill;
