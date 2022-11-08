@@ -110,4 +110,8 @@ public class SolidWorksPlanSkill
             var planner = new SequentialPlanner(_kernel);
 
             _kernel.ImportSkill(planner);
-            var plan = await planner.CreatePla
+            var plan = await planner.CreatePlanAsync(input);
+            
+            return context;
+        }
+     
