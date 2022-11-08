@@ -5,4 +5,4 @@ namespace Copilot.Sw.Skills.SolidWorksSkill;
 
 public class DocumentCreatationSkill:SldWorksSkillContext
 {
-    /
+    //[SKFunction("SolidWorks document creation or modify settings skill
