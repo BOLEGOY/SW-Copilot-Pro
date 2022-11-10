@@ -31,3 +31,10 @@ public class DocumentCreatationSkill:SldWorksSkillContext
     public void CreateDrawing()
     {
 
+    }
+
+    public void Setting(SKContext context)
+    {
+
+    }
+}
