@@ -15,4 +15,8 @@ public class DocumentCreatationSkill:SldWorksSkillContext
     [SKFunction("Create a solidworks's part doucment")]
     [SKFunctionName(nameof(CreatePart))]
     public void CreatePart()
-    
+    {
+        var doc = Sw.NewPart();
+    }
+
+    [SKFunction("Create a solidworks'
