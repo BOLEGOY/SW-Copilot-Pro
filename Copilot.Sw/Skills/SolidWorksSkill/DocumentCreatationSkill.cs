@@ -21,3 +21,7 @@ public class DocumentCreatationSkill:SldWorksSkillContext
 
     [SKFunction("Create a solidworks's assembly doucment")]
     [SKFunctionName(nameof(CreateAssembly))]
+    public void CreateAssembly()
+    {
+        var doc = Sw.NewAssembly();
+    
