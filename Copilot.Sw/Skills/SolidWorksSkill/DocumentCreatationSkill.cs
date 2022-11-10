@@ -27,4 +27,7 @@ public class DocumentCreatationSkill:SldWorksSkillContext
     }
 
     [SKFunction("Create a solidworks's drawing doucment")]
-    [SKFun
+    [SKFunctionName(nameof(CreateDrawing))]
+    public void CreateDrawing()
+    {
+
