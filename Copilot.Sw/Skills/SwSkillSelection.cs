@@ -11,3 +11,7 @@ namespace Copilot.Sw.Skills;
 public static class SwSkillSelection
 {
     private static StringBuilder? _skillBuilder;
+
+    public const string SemanticFuncation =
+        """
+        Create
