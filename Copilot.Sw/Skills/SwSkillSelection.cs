@@ -14,4 +14,5 @@ public static class SwSkillSelection
 
     public const string SemanticFuncation =
         """
-        Create
+        Create an XML plan step by step, to satisfy the goal given, to run in SolidWorks.
+ 
