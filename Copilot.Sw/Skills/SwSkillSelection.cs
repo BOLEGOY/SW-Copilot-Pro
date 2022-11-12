@@ -8,3 +8,6 @@ using System.Threading.Tasks;
 
 namespace Copilot.Sw.Skills;
 
+public static class SwSkillSelection
+{
+    private static StringBuilder? _skillBuilder;
