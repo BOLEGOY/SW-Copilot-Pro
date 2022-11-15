@@ -22,3 +22,6 @@ public static class SwSkillSelection
         4. Append an "END" XML comment at the end of the plan.
 
         Here are some good examples:      
+        [AVAILABLE SKILLS]
+          Properties:
+            description: 
