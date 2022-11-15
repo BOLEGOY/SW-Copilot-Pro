@@ -30,4 +30,6 @@ public static class SwSkillSelection
           CreateFeature:
             description: Create feature in solidworks part context.
         [END AVAILABLE SKILLS]
- 
+        
+        <goal>Close current document and exit solidworks</goal>
+      
