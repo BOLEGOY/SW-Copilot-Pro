@@ -24,4 +24,6 @@ public static class SwSkillSelection
         Here are some good examples:      
         [AVAILABLE SKILLS]
           Properties:
-            description: 
+            description: Add delete or modify solidworks custom properies.
+          Close:
+          
