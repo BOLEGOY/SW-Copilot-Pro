@@ -18,4 +18,5 @@ public static class SwSkillSelection
         To create a plan, follow these steps:
         1. From a <goal> create a <task> as a series of <skill>.
         2. Use only the [AVAILABLE SKILLS] - do not create new skills or attribute values.
-        3. Only use skills that
+        3. Only use skills that are required for the given goal.
+        4. Append an "END" XML comment 
