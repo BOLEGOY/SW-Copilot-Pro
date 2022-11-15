@@ -19,4 +19,6 @@ public static class SwSkillSelection
         1. From a <goal> create a <task> as a series of <skill>.
         2. Use only the [AVAILABLE SKILLS] - do not create new skills or attribute values.
         3. Only use skills that are required for the given goal.
-        4. Append an "END" XML comment 
+        4. Append an "END" XML comment at the end of the plan.
+
+        Here are some good examples:      
