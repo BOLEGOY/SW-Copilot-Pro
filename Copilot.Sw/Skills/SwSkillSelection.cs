@@ -34,4 +34,7 @@ public static class SwSkillSelection
         <goal>Close current document and exit solidworks</goal>
         <plan>
           <skill skillname="Close" goal="Close current solidworks"/>
-  
+        </plan><!-- END -->
+
+        [AVAILABLE SKILLS]
+          Pro
