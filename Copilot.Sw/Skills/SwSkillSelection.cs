@@ -58,4 +58,7 @@ public static class SwSkillSelection
         <goal>{{$input}}</goal>
         """;
 
- 
+    private const string SkillTemplate =
+        """
+        {0}:
+            description
