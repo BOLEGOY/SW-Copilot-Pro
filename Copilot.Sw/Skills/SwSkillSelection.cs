@@ -49,4 +49,8 @@ public static class SwSkillSelection
         <plan>
         </plan><!-- END -->
 
-        End
+        End of examples.
+        
+        [AVAILABLE SKILLS]
+        {0}
+        [END AVAILAB
