@@ -61,4 +61,7 @@ public static class SwSkillSelection
     private const string SkillTemplate =
         """
         {0}:
-            description
+            description: {1}.          
+        """;
+
+    public const string AvailavleSkillsVariable = "avail
