@@ -37,4 +37,6 @@ public static class SwSkillSelection
         </plan><!-- END -->
 
         [AVAILABLE SKILLS]
-          Pro
+          Properties:
+            description: Add delete or modify solidworks custom properies.
+         
