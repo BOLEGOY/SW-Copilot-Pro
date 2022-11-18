@@ -45,4 +45,8 @@ public static class SwSkillSelection
             description: Create feature in solidworks part context.
         [END AVAILABLE SKILLS]
         
-        <goal>I ne
+        <goal>I need a bolt model</goal>
+        <plan>
+        </plan><!-- END -->
+
+        End
