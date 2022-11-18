@@ -41,4 +41,5 @@ public static class SwSkillSelection
             description: Add delete or modify solidworks custom properies.
           Close:
             description: Close current document.          
-          Creat
+          CreateFeature:
+            description: Create feature in solidworks part
