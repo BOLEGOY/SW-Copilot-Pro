@@ -39,4 +39,6 @@ public static class SwSkillSelection
         [AVAILABLE SKILLS]
           Properties:
             description: Add delete or modify solidworks custom properies.
-         
+          Close:
+            description: Close current document.          
+          Creat
