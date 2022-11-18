@@ -53,4 +53,9 @@ public static class SwSkillSelection
         
         [AVAILABLE SKILLS]
         {0}
-        [END AVAILAB
+        [END AVAILABLE SKILLS]
+        
+        <goal>{{$input}}</goal>
+        """;
+
+ 
