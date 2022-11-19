@@ -64,4 +64,6 @@ public static class SwSkillSelection
             description: {1}.          
         """;
 
-    public const string AvailavleSkillsVariable = "avail
+    public const string AvailavleSkillsVariable = "available_skills";
+
+    public static string GetAvailavleSkills(this ISkillsProvider skillsProvid
