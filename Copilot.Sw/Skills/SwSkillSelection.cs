@@ -70,4 +70,7 @@ public static class SwSkillSelection
     {
         if (_skillBuilder != null)
         {
-            r
+            return _skillBuilder.ToString();
+        }
+
+        _skillBuilder = new StringB
