@@ -81,4 +81,9 @@ public static class SwSkillSelection
         foreach (var item in skills
             .Where(p => p.Config != null))
         {
-            _skillBuilder.Append(string.Format(SkillTemplate,item.Config.Name,item.Confi
+            _skillBuilder.Append(string.Format(SkillTemplate,item.Config.Name,item.Config.Rule));
+        }
+
+        return _skillBuilder.ToString();
+    }
+}
