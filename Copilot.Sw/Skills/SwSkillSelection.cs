@@ -73,4 +73,9 @@ public static class SwSkillSelection
             return _skillBuilder.ToString();
         }
 
-        _skillBuilder = new StringB
+        _skillBuilder = new StringBuilder();
+
+        var skills = skillsProvider
+            .GetSkills();
+
+ 
