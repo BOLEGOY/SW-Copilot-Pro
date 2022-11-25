@@ -78,4 +78,5 @@ public static class SwSkillSelection
         var skills = skillsProvider
             .GetSkills();
 
- 
+        foreach (var item in skills
+            .Where(p => p.Config != null
