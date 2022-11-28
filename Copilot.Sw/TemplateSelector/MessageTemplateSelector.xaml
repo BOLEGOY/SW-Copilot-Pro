@@ -1,0 +1,32 @@
+
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:model="clr-namespace:Copilot.Sw.Models"
+    xmlns:templateSelector="clr-namespace:Copilot.Sw.TemplateSelector"
+    xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/Copilot.Sw;component/Themes/Icons.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+    <templateSelector:MessageTemplateSelector x:Key="MessageTemplateSelector">
+        <templateSelector:MessageTemplateSelector.AskDataTemplate>
+            <DataTemplate DataType="model:AskMessage">
+                <Border
+                    Margin="5,10"
+                    Padding="5"
+                    Background="White"
+                    BorderBrush="#19000000"
+                    BorderThickness="1"
+                    CornerRadius="12">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition Width="32" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock
+                            Margin="10,2"
+                            FontSize="14"
+                            Text="{Binding Content}"
+                            TextWrapping="Wrap" />
+                        <Border
+                            Grid.Column="1"
