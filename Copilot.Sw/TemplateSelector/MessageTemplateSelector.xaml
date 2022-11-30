@@ -110,3 +110,22 @@
                                         ToolTip="{Binding Description}" />
                                 </DataTemplate>
                             </TreeView.ItemTemplate>
+                        </TreeView>
+                    </Grid>
+                </Border>
+            </DataTemplate>
+        </templateSelector:MessageTemplateSelector.ActionAnswerDataTemplate>
+        <templateSelector:MessageTemplateSelector.ErrorDataTemplate>
+            <DataTemplate DataType="model:ErrorMessage">
+                <Border
+                    Margin="5"
+                    BorderBrush="#19000000"
+                    BorderThickness="1"
+                    CornerRadius="5">
+                    <TextBlock Foreground="Red" Text="{Binding Content}" />
+                </Border>
+            </DataTemplate>
+        </templateSelector:MessageTemplateSelector.ErrorDataTemplate>
+    </templateSelector:MessageTemplateSelector>
+
+</ResourceDictionary>
