@@ -7,4 +7,5 @@
                         <LinearGradientBrush MappingMode="Absolute" Opacity="1" SpreadMethod="Pad" StartPoint="32.4099,3.77692" EndPoint="32.4099,78.2694">
                             <GradientStop Offset="0" Color="#FFAD7EE1" />
                             <GradientStop Offset="1" Color="#FF2A64BB" />
-            
+                        </LinearGradientBrush>
+                    </GeometryDrawi
