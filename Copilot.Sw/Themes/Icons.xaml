@@ -10,4 +10,4 @@
                         </LinearGradientBrush>
                     </GeometryDrawing.Brush>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F0 M80,80z M0,0z M12.5158,64.7542L32.4868,76.3361C37.0829,79.001
+                <GeometryDrawing Geometry="F0 M80,80z M0,0z M12.5158,64.7542L32.4868,76.3361C37.0829,79.0016,42.7471,78.9989,47.3457,76.3292L67.4292,64.6695C72.0278,61.9997,74.8622
