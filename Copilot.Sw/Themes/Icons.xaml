@@ -14,4 +14,5 @@
                     <GeometryDrawing.Brush>
                         <LinearGradientBrush MappingMode="Absolute" Opacity="1" SpreadMethod="Pad" StartPoint="47.2257,83.8564" EndPoint="79.1912,30.9742">
                             <GradientStop Offset="0" Color="#FFE4B4FF" />
+                            <GradientStop Offset="0.053092600000000004" Color="#FFCC94ED" />
                             <GradientStop
