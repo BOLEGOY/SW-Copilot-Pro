@@ -18,4 +18,6 @@
                             <GradientStop Offset="0.486653" Color="#FF8359A8" />
                             <GradientStop Offset="0.723512" Color="#FF6C389D" />
                             <GradientStop Offset="1" Color="#FF5D4081" />
-                        </LinearGradientBru
+                        </LinearGradientBrush>
+                    </GeometryDrawing.Brush>
+                </GeometryD
