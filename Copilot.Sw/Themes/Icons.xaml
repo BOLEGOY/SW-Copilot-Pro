@@ -20,4 +20,5 @@
                             <GradientStop Offset="1" Color="#FF5D4081" />
                         </LinearGradientBrush>
                     </GeometryDrawing.Brush>
-                </GeometryD
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F0 M80,80z M0,0z M75.0001,51.4493L74
