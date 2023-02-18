@@ -27,4 +27,5 @@
                             <GradientStop Offset="0" Color="#FF6AEAFE" />
                             <GradientStop Offset="0.052065099999999996" Color="#FF37D1E9" />
                             <GradientStop Offset="0.791032" Color="#FF1B5A8C" />
-                            <Gradient
+                            <GradientStop Offset="1" Color="#FF2C5491" />
+                        </LinearGradientBrush>
