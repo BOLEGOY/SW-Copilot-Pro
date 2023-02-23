@@ -29,3 +29,5 @@
                             <GradientStop Offset="0.791032" Color="#FF1B5A8C" />
                             <GradientStop Offset="1" Color="#FF2C5491" />
                         </LinearGradientBrush>
+                    </GeometryDrawing.Brush>
+                </Geome
