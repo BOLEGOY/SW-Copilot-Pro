@@ -44,4 +44,6 @@
         </DrawingImage.Drawing>
     </DrawingImage>
 
-    <DrawingImage x:Key
+    <DrawingImage x:Key="AvatarDrawingImage">
+        <DrawingImage.Drawing>
+            <DrawingGrou
