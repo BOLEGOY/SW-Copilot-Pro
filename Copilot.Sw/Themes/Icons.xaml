@@ -40,4 +40,8 @@
                         </LinearGradientBrush>
                     </GeometryDrawing.Brush>
                 </GeometryDrawing>
-           
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+
+    <DrawingImage x:Key
