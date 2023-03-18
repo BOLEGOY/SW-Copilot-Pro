@@ -46,4 +46,5 @@
 
     <DrawingImage x:Key="AvatarDrawingImage">
         <DrawingImage.Drawing>
-            <DrawingGrou
+            <DrawingGroup ClipGeometry="M0,0 V260 H260 V0 H0 Z">
+                <DrawingGro
