@@ -36,4 +36,6 @@
                         <LinearGradientBrush MappingMode="Absolute" Opacity="1" SpreadMethod="Pad" StartPoint="16.1859,14.4293" EndPoint="27.7144,61.9264">
                             <GradientStop Offset="0" Color="#FFAD7EE1" />
                             <GradientStop Offset="0.640625" Color="#FF636FCB" />
-                            <GradientStop O
+                            <GradientStop Offset="1" Color="#002A64BB" />
+                        </LinearGradientBrush>
+   
