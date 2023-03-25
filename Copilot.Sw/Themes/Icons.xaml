@@ -49,4 +49,6 @@
             <DrawingGroup ClipGeometry="M0,0 V260 H260 V0 H0 Z">
                 <DrawingGroup Opacity="1">
                     <DrawingGroup.ClipGeometry>
-               
+                        <RectangleGeometry
+                            RadiusX="130"
+   
