@@ -59,4 +59,5 @@
                             <RectangleGeometry
                                 RadiusX="130"
                                 RadiusY="130"
-            
+                                Rect="0,0,260,260" />
+                        </GeometryDrawing.Geometr
