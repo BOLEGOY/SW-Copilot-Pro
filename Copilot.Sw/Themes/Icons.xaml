@@ -54,4 +54,5 @@
                             RadiusY="130"
                             Rect="0,0,260,260" />
                     </DrawingGroup.ClipGeometry>
-                    <Ge
+                    <GeometryDrawing Brush="#FFFFFFFF">
+                        <GeometryDrawing.G
