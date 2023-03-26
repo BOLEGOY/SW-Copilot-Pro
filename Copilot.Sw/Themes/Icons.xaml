@@ -55,4 +55,6 @@
                             Rect="0,0,260,260" />
                     </DrawingGroup.ClipGeometry>
                     <GeometryDrawing Brush="#FFFFFFFF">
-                        <GeometryDrawing.G
+                        <GeometryDrawing.Geometry>
+                            <RectangleGeometry
+                  
