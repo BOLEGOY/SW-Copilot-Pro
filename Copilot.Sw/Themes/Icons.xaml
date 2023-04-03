@@ -62,4 +62,6 @@
                                 Rect="0,0,260,260" />
                         </GeometryDrawing.Geometry>
                     </GeometryDrawing>
-                    <Geomet
+                    <GeometryDrawing Brush="#FFDEF4FF">
+                        <GeometryDrawing.Geometry>
+     
