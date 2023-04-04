@@ -64,4 +64,5 @@
                     </GeometryDrawing>
                     <GeometryDrawing Brush="#FFDEF4FF">
                         <GeometryDrawing.Geometry>
-     
+                            <EllipseGeometry
+                                Cente
