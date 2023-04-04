@@ -67,4 +67,5 @@
                             <EllipseGeometry
                                 Center="130,130"
                                 RadiusX="130"
-                      
+                                RadiusY="130" />
+                        </GeometryDrawing.Geomet
