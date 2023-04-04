@@ -65,4 +65,6 @@
                     <GeometryDrawing Brush="#FFDEF4FF">
                         <GeometryDrawing.Geometry>
                             <EllipseGeometry
-                                Cente
+                                Center="130,130"
+                                RadiusX="130"
+                      
