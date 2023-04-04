@@ -70,4 +70,4 @@
                                 RadiusY="130" />
                         </GeometryDrawing.Geometry>
                     </GeometryDrawing>
-                    <GeometryDrawing 
+                    <GeometryDrawing Brush="#FF441D39" Geometry="F1 M260,260z M0,0z M104.651,34.841C104.65
