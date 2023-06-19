@@ -54,3 +54,26 @@ public partial class QuickChatPaneViewModel :
             }
 
             if (Kernel == null)
+            {
+                return;
+            }
+
+            await Conversation.ChatAsync(
+                Kernel,
+                _skillsProvider,
+                Question,
+                cancellationToken);
+
+            //clear
+            Question = "";
+        }
+        catch (Exception ex)
+        {
+            Conversation.Messages.Add(Message.CreateError(ex.Message));
+        }
+        finally
+        {
+            OnPropertyChanged(nameof(HasItem));
+        }
+    }
+}
