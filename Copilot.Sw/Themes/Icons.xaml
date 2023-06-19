@@ -92,4 +92,6 @@
                     <GeometryDrawing Brush="#FF2B7FA5" Geometry="F1 M260,260z M0,0z M88.2191,196.041C75.4531,200.409,68.7711,211.043,68.7451,211.095L109.877,225.681 103.793,262.679 106.367,263.095 112.373,226.565 120.277,229.373C120.277,229.373,101.011,191.673,88.2451,196.067L88.2191,196.041z" />
                 </DrawingGroup>
             </DrawingGroup>
-        </
+        </DrawingImage.Drawing>
+    </DrawingImage>
+</ResourceDictionary>
