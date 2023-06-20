@@ -9,4 +9,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Windows;
 
-namespace Copilot.Sw.View
+namespace Copilot.Sw.ViewModels;
+
+public partial class SettingsWindowViewModel : 
+    Observabl
