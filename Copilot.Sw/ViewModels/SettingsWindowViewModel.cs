@@ -12,4 +12,8 @@ using System.Windows;
 namespace Copilot.Sw.ViewModels;
 
 public partial class SettingsWindowViewModel : 
-    Observabl
+    ObservableObject
+{
+    #region Fields
+    [ObservableProperty]
+    private UITextCompletio
