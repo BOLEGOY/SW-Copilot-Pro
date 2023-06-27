@@ -16,4 +16,6 @@ public partial class SettingsWindowViewModel :
 {
     #region Fields
     [ObservableProperty]
-    private UITextCompletio
+    private UITextCompletionConfig? _selectedTextCompletionConfig;
+    private ITextCompletionProvider _textCompletionProvider;
+   
