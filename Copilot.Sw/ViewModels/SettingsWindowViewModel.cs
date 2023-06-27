@@ -18,4 +18,8 @@ public partial class SettingsWindowViewModel :
     [ObservableProperty]
     private UITextCompletionConfig? _selectedTextCompletionConfig;
     private ITextCompletionProvider _textCompletionProvider;
-   
+    #endregion
+
+    #region Ctor
+    public SettingsWindowViewModel(
+      
