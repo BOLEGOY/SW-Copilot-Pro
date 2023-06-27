@@ -24,4 +24,6 @@ public partial class SettingsWindowViewModel :
     public SettingsWindowViewModel(
         ITextCompletionProvider textCompletionProvider)
     {
-        _textCo
+        _textCompletionProvider = textCompletionProvider;
+        TextCompletionConfigs =
+            
