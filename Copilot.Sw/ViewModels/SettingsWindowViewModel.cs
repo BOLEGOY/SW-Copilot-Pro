@@ -22,4 +22,6 @@ public partial class SettingsWindowViewModel :
 
     #region Ctor
     public SettingsWindowViewModel(
-      
+        ITextCompletionProvider textCompletionProvider)
+    {
+        _textCo
