@@ -28,4 +28,9 @@ public partial class SettingsWindowViewModel :
         TextCompletionConfigs =
             _textCompletionProvider.Load()?.Select(t => ToUI(t))?.ToObservableCollection() ??
             new ObservableCollection<UITextCompletionConfig>();
-        _textComple
+        _textCompletionProvider = textCompletionProvider;
+    }
+
+    #endregion
+
+    
