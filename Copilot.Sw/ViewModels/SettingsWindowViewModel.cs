@@ -33,4 +33,9 @@ public partial class SettingsWindowViewModel :
 
     #endregion
 
-    
+    [RelayCommand]
+    private void Ok(Window window)
+    {
+        //TODO:Check
+
+        wi
