@@ -38,4 +38,8 @@ public partial class SettingsWindowViewModel :
     {
         //TODO:Check
 
-        wi
+        window.DialogResult = true;
+    }
+
+
+    public ObservableCollection<UITextComplet
