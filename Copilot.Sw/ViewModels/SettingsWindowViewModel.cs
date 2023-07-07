@@ -45,4 +45,7 @@ public partial class SettingsWindowViewModel :
     public ObservableCollection<UITextCompletionConfig> TextCompletionConfigs { get; private set; }
 
     [RelayCommand]
-    private void Add(
+    private void Add()
+    {
+        bool nothing = TextCompletionConfigs.Count == 0;
+        Te
