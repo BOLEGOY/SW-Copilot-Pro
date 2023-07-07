@@ -50,4 +50,6 @@ public partial class SettingsWindowViewModel :
         bool nothing = TextCompletionConfigs.Count == 0;
         TextCompletionConfigs.Add(new UITextCompletionConfig()
         {
-            Name 
+            Name = "ServerName",
+            Model = "text-davinci-003",
+            Type = ServerType
