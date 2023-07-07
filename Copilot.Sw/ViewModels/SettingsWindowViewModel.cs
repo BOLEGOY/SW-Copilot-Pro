@@ -48,4 +48,6 @@ public partial class SettingsWindowViewModel :
     private void Add()
     {
         bool nothing = TextCompletionConfigs.Count == 0;
-        Te
+        TextCompletionConfigs.Add(new UITextCompletionConfig()
+        {
+            Name 
