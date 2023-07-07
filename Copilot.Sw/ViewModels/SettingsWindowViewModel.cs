@@ -42,4 +42,7 @@ public partial class SettingsWindowViewModel :
     }
 
 
-    public ObservableCollection<UITextComplet
+    public ObservableCollection<UITextCompletionConfig> TextCompletionConfigs { get; private set; }
+
+    [RelayCommand]
+    private void Add(
