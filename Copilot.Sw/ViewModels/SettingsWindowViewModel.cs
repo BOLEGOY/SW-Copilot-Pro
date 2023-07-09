@@ -55,4 +55,9 @@ public partial class SettingsWindowViewModel :
             Type = ServerType.OpenAI,
             IsDefault = nothing,
         });
-    
+    }
+
+    [RelayCommand]
+    private void Delete()
+    {
+        if (_selectedT
