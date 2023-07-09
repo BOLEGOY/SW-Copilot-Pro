@@ -52,4 +52,7 @@ public partial class SettingsWindowViewModel :
         {
             Name = "ServerName",
             Model = "text-davinci-003",
-            Type = ServerType
+            Type = ServerType.OpenAI,
+            IsDefault = nothing,
+        });
+    
