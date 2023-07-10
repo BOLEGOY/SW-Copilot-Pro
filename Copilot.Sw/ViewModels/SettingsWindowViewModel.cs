@@ -60,4 +60,9 @@ public partial class SettingsWindowViewModel :
     [RelayCommand]
     private void Delete()
     {
-        if (_selectedT
+        if (_selectedTextCompletionConfig == null)
+        {
+            return;
+        }
+
+        Te
