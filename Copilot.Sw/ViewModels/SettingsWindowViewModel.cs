@@ -65,4 +65,7 @@ public partial class SettingsWindowViewModel :
             return;
         }
 
-        Te
+        TextCompletionConfigs.Remove(_selectedTextCompletionConfig);
+    }
+
+    [RelayComman
