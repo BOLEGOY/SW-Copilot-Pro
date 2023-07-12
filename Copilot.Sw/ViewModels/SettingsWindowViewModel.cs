@@ -68,4 +68,7 @@ public partial class SettingsWindowViewModel :
         TextCompletionConfigs.Remove(_selectedTextCompletionConfig);
     }
 
-    [RelayComman
+    [RelayCommand]
+    private void SetAsDefault()
+    {
+        if (_selectedTextCompletionConfig == null)
