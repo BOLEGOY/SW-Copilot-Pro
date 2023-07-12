@@ -72,3 +72,8 @@ public partial class SettingsWindowViewModel :
     private void SetAsDefault()
     {
         if (_selectedTextCompletionConfig == null)
+        {
+            return;
+        }
+
+        foreach (var config in TextCompleti
