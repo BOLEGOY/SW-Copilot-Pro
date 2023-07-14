@@ -100,4 +100,6 @@ public partial class SettingsWindowViewModel :
 
     internal void Save()
     {
-        _te
+        _textCompletionProvider.Wirte(
+            TextCompletionConfigs
+          
