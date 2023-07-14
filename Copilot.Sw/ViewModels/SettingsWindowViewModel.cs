@@ -88,4 +88,7 @@ public partial class SettingsWindowViewModel :
     private UITextCompletionConfig ToUI(TextCompletionConfig t)
     {
         return new UITextCompletionConfig()
- 
+        {
+            Model = t.Model,
+            Endpoint = t.Endpoint,
+            Na
