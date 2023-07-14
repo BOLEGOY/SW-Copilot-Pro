@@ -91,4 +91,7 @@ public partial class SettingsWindowViewModel :
         {
             Model = t.Model,
             Endpoint = t.Endpoint,
-            Na
+            Name = t.Name,
+            Type = t.Type,
+            Org = t.Org,
+           
