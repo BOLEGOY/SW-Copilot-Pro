@@ -85,4 +85,7 @@ public partial class SettingsWindowViewModel :
     }
 
 
-    private UITextCompletionCon
+    private UITextCompletionConfig ToUI(TextCompletionConfig t)
+    {
+        return new UITextCompletionConfig()
+ 
