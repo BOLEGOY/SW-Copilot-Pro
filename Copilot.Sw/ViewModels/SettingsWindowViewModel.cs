@@ -81,4 +81,8 @@ public partial class SettingsWindowViewModel :
             config.IsDefault = false;
         }
 
-        SelectedTe
+        SelectedTextCompletionConfig.IsDefault = true;
+    }
+
+
+    private UITextCompletionCon
