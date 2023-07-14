@@ -94,4 +94,10 @@ public partial class SettingsWindowViewModel :
             Name = t.Name,
             Type = t.Type,
             Org = t.Org,
-           
+            Apikey = t.Apikey,
+        };
+    }
+
+    internal void Save()
+    {
+        _te
