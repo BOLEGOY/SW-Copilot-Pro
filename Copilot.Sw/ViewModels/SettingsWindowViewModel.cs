@@ -76,4 +76,9 @@ public partial class SettingsWindowViewModel :
             return;
         }
 
-        foreach (var config in TextCompleti
+        foreach (var config in TextCompletionConfigs)
+        {
+            config.IsDefault = false;
+        }
+
+        SelectedTe
