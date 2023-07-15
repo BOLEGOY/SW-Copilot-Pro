@@ -102,4 +102,7 @@ public partial class SettingsWindowViewModel :
     {
         _textCompletionProvider.Wirte(
             TextCompletionConfigs
-          
+            .Select(p => p.ToTextCompletionConfig())
+            .ToList());
+    }
+}
