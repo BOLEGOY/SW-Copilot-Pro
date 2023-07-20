@@ -70,3 +70,90 @@ public partial class WPFChatPaneViewModel : ObservableObject
 
     public AsyncRelayCommand SendCommand { get => _sendCommand ??= new AsyncRelayCommand(SendAsync, CanSend); }
     #endregion
+
+    #region Public Methods
+    public void Init()
+    {
+        BuildKernel();
+    }
+
+    private void BuildKernel()
+    {
+        var configs = _textCompletionProvider.Load();
+
+        if (configs?.Any() != true)
+        {
+            _configLoadResult = false;
+            return;
+        }
+
+        Kernel = Microsoft.SemanticKernel.Kernel.Builder
+            .Configure(c =>
+            {
+                c.LoadConfigs(configs);
+            })
+            .WithMemoryStorage(new VolatileMemoryStore())
+            .Build();
+
+        _configLoadResult = Kernel.Config.TextCompletionServices?.Any() == true;
+    }
+    #endregion
+
+    #region Private Methods
+    [RelayCommand]
+    private void Clear()
+    {
+        Question = "";
+    }
+
+    [RelayCommand]
+    protected void OpenSettings()
+    {
+        try
+        {
+            var viewModel = _addin.Services.GetService<SettingsWindowViewModel>();
+            if (viewModel == null)
+            {
+                throw new NullReferenceException();
+            }
+
+            var settingWindow = new SettingsWindow() { DataContext = viewModel };
+            if (settingWindow.ShowDialog() == true)
+            {
+                settingWindow.Save();
+            }
+
+            BuildKernel();
+        }
+        catch (Exception ex)
+        {
+            MessageBox.Show(ex.Message);
+        }
+    }
+
+    private bool CanSend() => !string.IsNullOrEmpty(Question);
+
+    protected virtual async Task SendAsync(CancellationToken cancellationToken)
+    {
+        if (string.IsNullOrWhiteSpace(_question) || 
+            Kernel == null)
+        {
+            return;
+        }
+
+        OnPropertyChanged(nameof(HasItem));
+        
+        try
+        {
+
+            //check config
+            if (!_configLoadResult)
+            {
+                OpenSettings();
+            }
+
+            await Conversation.ChatAsync(
+                Kernel,
+                _skillsProvider,
+                _question,
+                cancellationToken);
