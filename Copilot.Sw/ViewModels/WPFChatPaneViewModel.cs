@@ -157,3 +157,18 @@ public partial class WPFChatPaneViewModel : ObservableObject
                 _skillsProvider,
                 _question,
                 cancellationToken);
+
+            //clear
+            Question = "";
+        }
+        catch (Exception ex)
+        {
+            Conversation.Messages.Add(Message.CreateError(ex.Message));
+        }
+        finally
+        {
+            OnPropertyChanged(nameof(HasItem));
+        }
+    }
+    #endregion
+}
