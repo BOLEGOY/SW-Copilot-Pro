@@ -120,3 +120,12 @@
                 PlacementTarget="{Binding ElementName=TopBoard}"
                 PopupAnimation="Fade"
                 StaysOpen="True">
+                <ItemsControl
+                    MaxWidth="600"
+                    ItemTemplateSelector="{StaticResource MessageTemplateSelector}"
+                    ItemsSource="{Binding Conversation.Messages}" />
+            </Popup>
+        </Grid>
+    </Border>
+
+</Window>
