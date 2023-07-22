@@ -48,3 +48,75 @@
             <Grid.RowDefinitions>
                 <RowDefinition />
                 <RowDefinition Height="5" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50" />
+                <ColumnDefinition />
+                <ColumnDefinition Width="50" />
+            </Grid.ColumnDefinitions>
+            <ProgressBar
+                Grid.Row="1"
+                Grid.ColumnSpan="3"
+                Height="5"
+                IsIndeterminate="True"
+                Visibility="{Binding SendCommand.IsRunning, Converter={StaticResource BoolToVisibilityConverter}}" />
+            <ToggleButton
+                Name="SkillsToggleBtn"
+                Margin="0,5"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Bottom"
+                ToolTip="Skills">
+                <ui:SymbolIcon Symbol="List24" />
+            </ToggleButton>
+            <Popup
+                Margin="5,10"
+                AllowsTransparency="True"
+                IsOpen="{Binding ElementName=SkillsToggleBtn, Path=IsChecked}"
+                Placement="Left"
+                PlacementTarget="{Binding ElementName=SkillsToggleBtn}"
+                PopupAnimation="Fade"
+                StaysOpen="False">
+                <Border
+                    Margin="10"
+                    Background="White"
+                    BorderBrush="#19000000"
+                    BorderThickness="1"
+                    CornerRadius="5">
+                    <ListBox
+                        Margin="5"
+                        ItemsSource="{Binding Skills}"
+                        SelectedItem="{Binding SelectedSkill}" />
+                </Border>
+            </Popup>
+            <TextBox
+                x:Name="Input"
+                Grid.Column="1"
+                Margin="0,2,0,0"
+                AcceptsReturn="True"
+                Style="{DynamicResource DefaultTextBoxStyle}"
+                Text="{Binding Question, UpdateSourceTrigger=PropertyChanged}"
+                TextWrapping="Wrap">
+                <TextBox.InputBindings>
+                    <KeyBinding
+                        Key="Enter"
+                        Command="{Binding SendCommand}"
+                        Modifiers="Ctrl" />
+                </TextBox.InputBindings>
+            </TextBox>
+            <Button
+                Grid.Column="2"
+                Margin="0,5"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Bottom"
+                Command="{Binding SendCommand}"
+                ToolTip="Send">
+                <ui:SymbolIcon Symbol="Send20" />
+            </Button>
+            <Popup
+                Margin="5,10"
+                AllowsTransparency="True"
+                IsOpen="{Binding HasItem, Mode=OneWay}"
+                Placement="Top"
+                PlacementTarget="{Binding ElementName=TopBoard}"
+                PopupAnimation="Fade"
+                StaysOpen="True">
