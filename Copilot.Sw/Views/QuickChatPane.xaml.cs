@@ -5,4 +5,8 @@ using System.Windows.Interop;
 namespace Copilot.Sw.Views;
 
 /// <summary>
-/// QuickChatPane
+/// QuickChatPane.xaml 的交互逻辑
+/// </summary>
+public partial class QuickChatPane : Window
+{
+    private rea
