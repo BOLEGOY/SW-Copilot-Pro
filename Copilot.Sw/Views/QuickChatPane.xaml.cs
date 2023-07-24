@@ -18,4 +18,5 @@ public partial class QuickChatPane : Window
         _addin = addin;
 
         InitializeComponent();
-        var windowInteropHelper = new WindowInt
+        var windowInteropHelper = new WindowInteropHelper(this);
+        windowInteropHelper.Owner = _addin.Sw
