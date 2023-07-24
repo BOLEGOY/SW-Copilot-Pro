@@ -9,4 +9,8 @@ namespace Copilot.Sw.Views;
 /// </summary>
 public partial class QuickChatPane : Window
 {
-    private rea
+    private readonly IAddin _addin;
+
+    public QuickChatPane(
+        IAddin addin,
+        Qui
