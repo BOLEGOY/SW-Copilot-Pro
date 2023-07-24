@@ -13,4 +13,8 @@ public partial class QuickChatPane : Window
 
     public QuickChatPane(
         IAddin addin,
-        Qui
+        QuickChatPaneViewModel quickChatPaneViewModel)
+    {
+        _addin = addin;
+
+  
