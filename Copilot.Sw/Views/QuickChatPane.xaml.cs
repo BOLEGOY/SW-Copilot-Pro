@@ -22,4 +22,8 @@ public partial class QuickChatPane : Window
         windowInteropHelper.Owner = _addin.SwHandle;
 
         quickChatPaneViewModel.CloseAction = () => Close();
-        DataCont
+        DataContext = quickChatPaneViewModel;
+
+        this.Loaded += QuickChatPane_Loaded;
+
+ 
