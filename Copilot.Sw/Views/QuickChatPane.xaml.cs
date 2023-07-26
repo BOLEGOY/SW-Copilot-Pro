@@ -19,4 +19,7 @@ public partial class QuickChatPane : Window
 
         InitializeComponent();
         var windowInteropHelper = new WindowInteropHelper(this);
-        windowInteropHelper.Owner = _addin.Sw
+        windowInteropHelper.Owner = _addin.SwHandle;
+
+        quickChatPaneViewModel.CloseAction = () => Close();
+        DataCont
