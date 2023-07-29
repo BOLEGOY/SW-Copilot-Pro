@@ -38,4 +38,8 @@ public partial class QuickChatPane : Window
 
     private void QuickChatPane_Loaded(object sender, RoutedEventArgs e)
     {
-        this.Loaded -= QuickChatP
+        this.Loaded -= QuickChatPane_Loaded;
+
+        var workArea = SystemParameters.WorkArea;
+
+        Left
