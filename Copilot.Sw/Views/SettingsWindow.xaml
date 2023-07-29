@@ -19,3 +19,85 @@
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ui:ThemesDictionary Theme="Light" />
+                <ui:ControlsDictionary />
+                <ResourceDictionary Source="/Copilot.Sw;component/Themes/Icons.xaml" />
+                <ResourceDictionary Source="/Copilot.Sw;component/TemplateSelector/MessageTemplateSelector.xaml" />
+                <ResourceDictionary Source="/Copilot.Sw;component/Themes/Colors.xaml" />
+                <ResourceDictionary Source="/Copilot.Sw;component/Themes/Converters.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+        <TabControl>
+            <TabItem Header="Server">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40" />
+                        <RowDefinition />
+                        <RowDefinition Height="130" />
+                    </Grid.RowDefinitions>
+                    <DockPanel>
+                        <TextBlock
+                            HorizontalAlignment="Left"
+                            VerticalAlignment="Center"
+                            DockPanel.Dock="Left"
+                            FontSize="14"
+                            FontWeight="SemiBold"
+                            Text="LLM Server:" />
+                        <Button
+                            Margin="10,0"
+                            HorizontalAlignment="Right"
+                            Command="{Binding SetAsDefaultCommand}"
+                            Content="Set as default"
+                            DockPanel.Dock="Right" />
+                        <Button
+                            Margin="5,0"
+                            HorizontalAlignment="Right"
+                            Command="{Binding DeleteCommand}"
+                            DockPanel.Dock="Right">
+                            <ui:SymbolIcon Symbol="Delete24" />
+                        </Button>
+                        <Button
+                            HorizontalAlignment="Right"
+                            Command="{Binding AddCommand}"
+                            DockPanel.Dock="Right">
+                            <ui:SymbolIcon Symbol="Add24" />
+                        </Button>
+                    </DockPanel>
+                    <ListBox
+                        Name="TextCompletionConfigsListBox"
+                        Grid.Row="1"
+                        ItemsSource="{Binding TextCompletionConfigs}"
+                        SelectedItem="{Binding SelectedTextCompletionConfig}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition />
+                                        <RowDefinition />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="40" />
+                                        <ColumnDefinition />
+                                    </Grid.ColumnDefinitions>
+                                    <ui:SymbolIcon
+                                        Grid.RowSpan="2"
+                                        Symbol="Checkmark48"
+                                        Visibility="{Binding IsDefault, Converter={StaticResource BoolToVisibilityConverter}}" />
+                                    <TextBlock Grid.Column="1" Text="{Binding}" />
+                                    <TextBlock
+                                        Grid.Row="1"
+                                        Grid.Column="1"
+                                        Text="{Binding Apikey}" />
+                                </Grid>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                    <Grid Grid.Row="2">
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition />
