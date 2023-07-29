@@ -42,4 +42,5 @@ public partial class QuickChatPane : Window
 
         var workArea = SystemParameters.WorkArea;
 
-        Left
+        Left = workArea.Left + workArea.Width * 0.5d - ActualWidth * 0.5d;
+        Top = workArea.To
