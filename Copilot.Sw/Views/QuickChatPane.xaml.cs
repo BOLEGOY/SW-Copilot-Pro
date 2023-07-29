@@ -32,4 +32,8 @@ public partial class QuickChatPane : Window
         }
         catch (System.Exception ex)
         {
-            MessageBox.Show(ex.
+            MessageBox.Show(ex.Message);
+        }
+    }
+
+    private void QuickCh
