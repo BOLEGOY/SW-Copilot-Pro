@@ -30,4 +30,6 @@ public partial class QuickChatPane : Window
         {
             quickChatPaneViewModel.Init();
         }
-       
+        catch (System.Exception ex)
+        {
+            MessageBox.Show(ex.
