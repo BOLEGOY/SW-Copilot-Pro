@@ -26,4 +26,8 @@ public partial class QuickChatPane : Window
 
         this.Loaded += QuickChatPane_Loaded;
 
- 
+        try
+        {
+            quickChatPaneViewModel.Init();
+        }
+       
