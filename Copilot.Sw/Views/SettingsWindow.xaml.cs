@@ -9,4 +9,7 @@ namespace Copilot.Sw.Views;
 /// <summary>
 /// SettingsWindow.xaml 的交互逻辑
 /// </summary>
-pub
+public partial class SettingsWindow
+{
+    public SettingsWindow()
+  
