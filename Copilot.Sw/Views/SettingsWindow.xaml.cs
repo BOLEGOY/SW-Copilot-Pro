@@ -12,4 +12,10 @@ namespace Copilot.Sw.Views;
 public partial class SettingsWindow
 {
     public SettingsWindow()
-  
+    {
+        InitializeComponent();  
+    }
+
+    public void Save()
+    {
+    
