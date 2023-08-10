@@ -1,0 +1,32 @@
+
+﻿<UserControl
+    x:Class="Copilot.Sw.WPFChatPane"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="clr-namespace:Copilot.Sw.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Copilot.Sw"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:md="https://github.com/fantasticfiasco/mvvm-dialogs"
+    xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+    xmlns:viewmodels="clr-namespace:Copilot.Sw.ViewModels"
+    d:DataContext="{d:DesignInstance Type=viewmodels:WPFChatPaneViewModel}"
+    d:DesignHeight="700"
+    d:DesignWidth="300"
+    md:DialogServiceViews.IsRegistered="True"
+    Background="#F7F9FB"
+    FontFamily="{x:Static SystemFonts.CaptionFontFamily}"
+    mc:Ignorable="d">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ui:ThemesDictionary Theme="Light" />
+                <ui:ControlsDictionary />
+                <ResourceDictionary Source="/Copilot.Sw;component/Themes/Icons.xaml" />
+                <ResourceDictionary Source="/Copilot.Sw;component/TemplateSelector/MessageTemplateSelector.xaml" />
+                <ResourceDictionary Source="/Copilot.Sw;component/Themes/Colors.xaml" />
+                <ResourceDictionary Source="/Copilot.Sw;component/Themes/Converters.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>

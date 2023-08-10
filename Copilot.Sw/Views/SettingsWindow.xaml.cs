@@ -18,4 +18,6 @@ public partial class SettingsWindow
 
     public void Save()
     {
-    
+        (DataContext as SettingsWindowViewModel)?.Save();
+    }
+}
