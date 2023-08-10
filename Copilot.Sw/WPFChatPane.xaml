@@ -30,3 +30,89 @@
         </ResourceDictionary>
     </UserControl.Resources>
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <DockPanel>
+            <Button
+                Margin="5,0"
+                HorizontalAlignment="Right"
+                Command="{Binding OpenSettingsCommand}"
+                DockPanel.Dock="Right">
+                <ui:SymbolIcon Symbol="Settings28" />
+            </Button>
+            <!--<ComboBox
+                Margin="5,0"
+                ItemsSource="{Binding Skills}"
+                SelectedItem="{Binding SelectedSkill}" />-->
+        </DockPanel>
+        <DockPanel Grid.Row="1" LastChildFill="True">
+            <Border
+                Margin="2"
+                BorderBrush="#19000000"
+                BorderThickness="1"
+                CornerRadius="12"
+                DockPanel.Dock="Bottom">
+                <Grid MinHeight="100">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50" />
+                        <ColumnDefinition />
+                        <ColumnDefinition Width="50" />
+                    </Grid.ColumnDefinitions>
+                    <ToggleButton
+                        Name="SkillsToggleBtn"
+                        Margin="0,5"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Top"
+                        ToolTip="Skills">
+                        <ui:SymbolIcon Symbol="TableSwitch24" />
+                    </ToggleButton>
+                    <Popup
+                        Margin="5,10"
+                        AllowsTransparency="True"
+                        IsOpen="{Binding ElementName=SkillsToggleBtn, Path=IsChecked}"
+                        Placement="Top"
+                        PlacementTarget="{Binding ElementName=SkillsToggleBtn}"
+                        PopupAnimation="Fade"
+                        StaysOpen="False">
+                        <Border
+                            Background="White"
+                            BorderBrush="#19000000"
+                            BorderThickness="1"
+                            CornerRadius="5">
+                            <ListBox
+                                Margin="10"
+                                ItemsSource="{Binding Skills}"
+                                SelectedItem="{Binding SelectedSkill}" />
+                        </Border>
+                    </Popup>
+                    <TextBox
+                        Grid.Column="1"
+                        MinHeight="90"
+                        AcceptsReturn="True"
+                        Style="{DynamicResource DefaultTextBoxStyle}"
+                        Text="{Binding Question, UpdateSourceTrigger=PropertyChanged}"
+                        TextWrapping="Wrap">
+                        <TextBox.InputBindings>
+                            <KeyBinding
+                                Key="Enter"
+                                Command="{Binding SendCommand}"
+                                Modifiers="Ctrl" />
+                        </TextBox.InputBindings>
+                    </TextBox>
+                    <Button
+                        Grid.Column="2"
+                        Margin="0,5"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Top"
+                        Command="{Binding SendCommand}"
+                        ToolTip="Send">
+                        <ui:SymbolIcon Symbol="Send20" />
+                    </Button>
+                </Grid>
+            </Border>
+            <Grid DockPanel.Dock="Top">
+                <ScrollViewer HorizontalScrollBarVisibility="Disabled">
+                    <ItemsControl ItemTemplateSelector="{StaticResource MessageTemplateSelector}" ItemsSource="{Binding Conversation.Messages}" />
+                </ScrollViewer>
