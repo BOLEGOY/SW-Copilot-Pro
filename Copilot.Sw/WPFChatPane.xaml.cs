@@ -9,4 +9,5 @@ namespace Copilot.Sw;
 /// <summary>
 /// WPFChatPane.xaml 的交互逻辑
 /// </summary>
-[Title(A
+[Title(AddIn.AddinName)]
+[Icon(typeof(Properties.Resources),nameof(Properties.Resources.SolidWorksCopilot)
