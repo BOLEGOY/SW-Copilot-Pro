@@ -18,4 +18,8 @@ public partial class WPFChatPane : UserControl
     public WPFChatPane()
     {
         InitializeComponent();
-        DataContext = _vm 
+        DataContext = _vm = Ioc.Default.GetService<WPFChatPaneViewModel>();
+
+        try
+        {
+      
