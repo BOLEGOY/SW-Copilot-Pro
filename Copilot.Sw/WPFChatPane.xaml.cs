@@ -15,3 +15,7 @@ public partial class WPFChatPane : UserControl
 {
     private WPFChatPaneViewModel _vm;
 
+    public WPFChatPane()
+    {
+        InitializeComponent();
+        DataContext = _vm 
