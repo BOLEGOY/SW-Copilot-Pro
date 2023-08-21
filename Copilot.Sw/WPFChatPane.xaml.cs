@@ -25,4 +25,7 @@ public partial class WPFChatPane : UserControl
             _vm.Init();
         }
         catch (System.Exception ex)
-     
+        {
+            MessageBox.Show(ex.Message);
+        }
+    }
