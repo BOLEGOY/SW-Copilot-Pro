@@ -22,4 +22,7 @@ public partial class WPFChatPane : UserControl
 
         try
         {
-      
+            _vm.Init();
+        }
+        catch (System.Exception ex)
+     
