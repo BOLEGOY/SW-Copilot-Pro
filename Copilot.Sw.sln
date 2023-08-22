@@ -8,4 +8,5 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Copilot.SwTests", "Copilot.SwTests\Copilot.SwTests.csproj", "{34F45F35-B168-459F-9F0A-6E36F476BE9C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7FB76A1F-E6C6-41AE-AC42-6DBFC58F6CBC}"
-EndPro
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "S
