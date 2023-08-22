@@ -5,4 +5,4 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Copilot.Sw", "Copilot.Sw\Copilot.Sw.csproj", "{90C8522B-A874-47E7-A5D3-CA5BC45C08AA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Co
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Copilot.SwTests", "Copilot.SwTests\Copilot.SwTests.csproj", "{3
