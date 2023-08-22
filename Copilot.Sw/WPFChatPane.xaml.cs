@@ -29,3 +29,4 @@ public partial class WPFChatPane : UserControl
             MessageBox.Show(ex.Message);
         }
     }
+}
