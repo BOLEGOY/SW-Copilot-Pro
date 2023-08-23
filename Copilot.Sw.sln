@@ -9,4 +9,5 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Copilot.SwTests", "Copilot.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7FB76A1F-E6C6-41AE-AC42-6DBFC58F6CBC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "S
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{31EC6B0A-2043-4E8D-93EE-224EA63ED5E2}"
+	ProjectSection(Solu
