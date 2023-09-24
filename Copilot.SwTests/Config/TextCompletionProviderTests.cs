@@ -1,1 +1,3 @@
-﻿using Microsoft.VisualStud
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+namespace Copilot.Sw.Config.Tests;
