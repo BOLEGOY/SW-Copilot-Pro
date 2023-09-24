@@ -36,4 +36,6 @@ Global
 		{34F45F35-B168-459F-9F0A-6E36F476BE9C} = {7FB76A1F-E6C6-41AE-AC42-6DBFC58F6CBC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {EA306A6F
+		SolutionGuid = {EA306A6F-6957-422E-9817-96961C73BA37}
+	EndGlobalSection
+EndGlobal
