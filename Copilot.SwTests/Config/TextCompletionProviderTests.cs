@@ -6,3 +6,6 @@ namespace Copilot.Sw.Config.Tests;
 public class TextCompletionProviderTests
 {
     [TestMethod()]
+    public ITextCompletionProvider TextCompletionProviderTest()
+    {
+        var provider
