@@ -8,4 +8,6 @@ public class TextCompletionProviderTests
     [TestMethod()]
     public ITextCompletionProvider TextCompletionProviderTest()
     {
-        var provider
+        var provider = new TextCompletionProvider();
+        Assert.IsNotNull(provider);
+ 
