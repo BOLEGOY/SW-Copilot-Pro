@@ -10,4 +10,10 @@ public class TextCompletionProviderTests
     {
         var provider = new TextCompletionProvider();
         Assert.IsNotNull(provider);
- 
+        return provider;
+    }
+
+    [TestMethod()]
+    public void ConfigTest()
+    {
+       
