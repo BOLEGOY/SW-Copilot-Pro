@@ -21,4 +21,6 @@ public class TextCompletionProviderTests
         var configs = provider.Load();
 
         provider.Wirte(new List<TextCompletionConfig>()
-    
+        {
+            new TextCompletionConfig(){Type =  ServerType.OpenAI},
+  
