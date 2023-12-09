@@ -23,4 +23,7 @@ public class TextCompletionProviderTests
         provider.Wirte(new List<TextCompletionConfig>()
         {
             new TextCompletionConfig(){Type =  ServerType.OpenAI},
-  
+        });
+
+        var newConfigs = provider.Load();
+        Assert.IsNotNull(n
