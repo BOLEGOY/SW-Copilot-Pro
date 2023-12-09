@@ -18,4 +18,7 @@ public class TextCompletionProviderTests
     {
         var provider = TextCompletionProviderTest();
 
-        var configs = provider.
+        var configs = provider.Load();
+
+        provider.Wirte(new List<TextCompletionConfig>()
+    
