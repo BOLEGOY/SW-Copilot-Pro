@@ -16,4 +16,6 @@ public class TextCompletionProviderTests
     [TestMethod()]
     public void ConfigTest()
     {
-       
+        var provider = TextCompletionProviderTest();
+
+        var configs = provider.
