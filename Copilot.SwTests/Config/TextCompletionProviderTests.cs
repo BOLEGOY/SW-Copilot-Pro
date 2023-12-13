@@ -27,4 +27,6 @@ public class TextCompletionProviderTests
 
         var newConfigs = provider.Load();
         Assert.IsNotNull(newConfigs);
-        Assert.AreEqual(newConfigs.First().Type, Server
+        Assert.AreEqual(newConfigs.First().Type, ServerType.OpenAI);
+    }
+}
