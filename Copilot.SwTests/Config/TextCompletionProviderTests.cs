@@ -26,4 +26,5 @@ public class TextCompletionProviderTests
         });
 
         var newConfigs = provider.Load();
-        Assert.IsNotNull(n
+        Assert.IsNotNull(newConfigs);
+        Assert.AreEqual(newConfigs.First().Type, Server
