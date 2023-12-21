@@ -4,4 +4,6 @@ namespace Copilot.SwTests.Skills;
 
 public class SkillTestbase
 {
-    p
+    private IKernel _kernel;
+
+    public IKernel Kernel => _kernel ??=
