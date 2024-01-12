@@ -10,4 +10,5 @@ public class SkillTestbase
 
     public string SkillsDir()
     {
-   
+        var dir = new DirectoryInfo(Directory.GetCurrentDirectory());
+    
