@@ -11,4 +11,5 @@ public class SkillTestbase
     public string SkillsDir()
     {
         var dir = new DirectoryInfo(Directory.GetCurrentDirectory());
-    
+        
+        while (!dir.GetDirectories().Any(p => p.Name == ".git"))
