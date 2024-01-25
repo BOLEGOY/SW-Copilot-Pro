@@ -13,3 +13,8 @@ public class SkillTestbase
         var dir = new DirectoryInfo(Directory.GetCurrentDirectory());
         
         while (!dir.GetDirectories().Any(p => p.Name == ".git"))
+        {
+            dir = dir.Parent;
+        }
+
+        return Path.Combine(dir.Fu
