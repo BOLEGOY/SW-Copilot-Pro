@@ -17,4 +17,6 @@ public class SkillTestbase
             dir = dir.Parent;
         }
 
-        return Path.Combine(dir.Fu
+        return Path.Combine(dir.FullName, "Copilot.Sw", "Skills");
+    }
+}
