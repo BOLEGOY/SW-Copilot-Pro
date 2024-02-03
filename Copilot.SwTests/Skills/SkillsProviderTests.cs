@@ -3,4 +3,9 @@
 namespace Copilot.Sw.Skills.Tests;
 
 [TestClass()]
-public class Skil
+public class SkillsProviderTests
+{
+    [TestMethod()]
+    public void GetSkillsTest()
+    {
+        var s
