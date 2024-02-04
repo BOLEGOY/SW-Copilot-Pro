@@ -8,4 +8,5 @@ public class SkillsProviderTests
     [TestMethod()]
     public void GetSkillsTest()
     {
-        var s
+        var skillProvider = new SkillsProvider();   
+        Assert.IsNotNull(skillProvider)
