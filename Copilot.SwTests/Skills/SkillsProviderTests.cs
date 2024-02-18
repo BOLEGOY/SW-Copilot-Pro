@@ -15,4 +15,5 @@ public class SkillsProviderTests
 
         Assert.IsNotNull(skills);
         Assert.IsTrue(skills.Any());
-    
+    }
+}
