@@ -9,4 +9,8 @@ public class SkillsProviderTests
     public void GetSkillsTest()
     {
         var skillProvider = new SkillsProvider();   
-        Assert.IsNotNull(skillProvider)
+        Assert.IsNotNull(skillProvider);
+
+        var skills = skillProvider.GetSkills().ToList();
+
+        Asser
