@@ -13,4 +13,6 @@ public class SkillsProviderTests
 
         var skills = skillProvider.GetSkills().ToList();
 
-        Asser
+        Assert.IsNotNull(skills);
+        Assert.IsTrue(skills.Any());
+    
