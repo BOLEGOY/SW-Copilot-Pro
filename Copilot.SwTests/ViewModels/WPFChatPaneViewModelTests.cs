@@ -14,3 +14,27 @@ public class KernelTests
     public async Task QuestionTest()
     {
         IKernel kernel = Microsoft.SemanticKernel.Kernel.Builder.Build();
+
+        var config = new TextCompletionProvider().Load().FirstOrDefault();
+        if (config == null)
+        {
+            Assert.Fail("Config your Api key");
+        }
+
+        kernel.Config.AddOpenAITextCompletionService(
+            config.Name, 
+            config.Model,
+            config.Apikey, 
+            config.Org);
+
+        var skill = kernel.ImportSemanticSkillFromDirectory(
+            new SkillsProvider().SkillsLocation, 
+            "QASkill");
+
+        var result = await kernel.RunAsync(
+            "Tell me somthing about solidworks", 
+            skill["Question"]);
+                    
+        Console.WriteLine(result);
+    }
+}
