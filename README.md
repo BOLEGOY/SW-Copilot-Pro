@@ -1,1 +1,1 @@
-# SW-Copilot-Pro\n\n<div align="center">\n    <img src="./Copilot.Sw/Assets/Icons/SolidWorksCopilot.png"/>\n</div>\n\n**In develop
+# SW-Copilot-Pro\n\n<div align="center">\n    <img src="./Copilot.Sw/Assets/Icons/SolidWorksCopilot.png"/>\n</div>\n\n**In development by BOLEGOY**\n\nThis SolidWorks assistant utilizes LLM(ChatGPT) for enhanced functionality
